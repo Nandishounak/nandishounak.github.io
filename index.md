@@ -18,7 +18,7 @@ low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems
 </p>
 
 <div class="links">
-  <a class="btn" href="/assets/CV.pdf">CV (PDF)</a>
+  <a class="btn" href="/assets/CV.pdf">CV</a>
   <a class="btn" href="https://github.com/nandishounak">GitHub</a>
   <a class="btn" href="https://www.linkedin.com/in/shounak-nandi-b2b40b78/">LinkedIn</a>
   <a class="btn" href="mailto:nandishounak2011@gmail.com">Email</a>
@@ -29,7 +29,7 @@ low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems
     <span class="dot"></span><strong>Google Scholar</strong>
   </a>
   <a class="badge" href="https://orcid.org/0000-0003-3588-3838" target="_blank" rel="noopener">
-    <span class="dot"></span><strong>ORCID</strong> <small>(add ID)</small>
+    <span class="dot"></span><strong>ORCID</strong> <small>(0000-0003-3588-3838)</small>
   </a>
   <a class="badge" href="https://www.researchgate.net/profile/Shounak-Nandi?ev=hdr_xprf" target="_blank" rel="noopener">
     <span class="dot"></span><strong>ResearchGate</strong>
