@@ -28,7 +28,7 @@ low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems
   <a class="badge" href="https://scholar.google.com/citations?user=nqoO0iwAAAAJ&hl=en" target="_blank" rel="noopener">
     <span class="dot"></span><strong>Google Scholar</strong>
   </a>
-  <a class="badge" href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">
+  <a class="badge" href="https://orcid.org/0000-0003-3588-3838" target="_blank" rel="noopener">
     <span class="dot"></span><strong>ORCID</strong> <small>(add ID)</small>
   </a>
   <a class="badge" href="https://www.researchgate.net/profile/Shounak-Nandi?ev=hdr_xprf" target="_blank" rel="noopener">
