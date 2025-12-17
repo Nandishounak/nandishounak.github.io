@@ -5,90 +5,104 @@ title: Shounak Nandi
 
 # Shounak Nandi
 
-**Neuroimaging Researcher** based in New York City.  
-I work on multi-modal MRI analysis (diffusion, fMRI, ASL, structural MRI), reproducible pipelines on HPC, and quantitative neuroimaging biomarkers.
+**Neuroimaging Researcher** · MRI · Diffusion Imaging · Reproducible Pipelines  
+New York City, USA
 
-**Quick links:** [CV](/assets/CV.pdf) · [GitHub](https://github.com/nandishounak) · [LinkedIn](#) · [Google Scholar](#) · [Email](mailto:nandishounak2011@gmail.com)
+I work on multi-modal MRI analysis with a focus on diffusion microstructure modeling, low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems.
 
----
-
-## About
-
-I am currently a **Study Coordinator** in Radiology at **Albert Einstein College of Medicine** (PI: Tim Duong), where I build and run pipelines for large multi-modal MRI datasets and support study protocol and regulatory documentation. :contentReference[oaicite:1]{index=1}  
-Previously, I worked with the **Accessible MR Lab** (PI: Sairam Geethanath) at **Johns Hopkins University School of Medicine** and **Icahn School of Medicine at Mount Sinai**, focusing on low-field MRI quality optimization and textural/volumetric analysis in substance use disorder cohorts. :contentReference[oaicite:2]{index=2}
+**Quick links:**  
+[CV](/assets/CV.pdf) · [GitHub](https://github.com/nandishounak) · [LinkedIn](https://www.linkedin.com/in/shounak-nandi-b2b40b78/) · [Google Scholar](#) · [Email](mailto:nandishounak2011@gmail.com)
 
 ---
 
 ## Research Interests
 
-- Diffusion MRI microstructure modeling (including NODDI-Bingham style analyses)
-- Robust and scalable neuroimaging pipelines (HPC/Slurm)
-- Low-field / accessible MRI and quantitative biomarkers
-- Multimodal MRI preprocessing, QC, and downstream statistical/ML analysis
+- Diffusion MRI microstructure modeling (e.g., NODDI-Bingham)
+- Low-field and accessible MRI
+- Robust and reproducible neuroimaging pipelines (HPC, Slurm)
+- Multimodal MRI preprocessing and quantitative biomarkers
+- Statistical analysis and machine learning for neuroimaging
 
 ---
 
 ## Education
 
-- **M.Sc., Biomedical Engineering & Medical Physics**, Technical University of Munich (Apr 2021 – Apr 2024) :contentReference[oaicite:3]{index=3}  
-- **B.Tech., Biomedical Engineering**, Maulana Abul Kalam Azad University of Technology (Aug 2013 – Jun 2017) :contentReference[oaicite:4]{index=4}  
+**M.Sc., Biomedical Engineering & Medical Physics**  
+Technical University of Munich, Germany (2024)
+
+**B.Tech., Biomedical Engineering**  
+Maulana Abul Kalam Azad University of Technology, India (2017)
 
 ---
 
 ## Research & Professional Experience
 
-**Study Coordinator**, Radiology, Albert Einstein College of Medicine (Jun 2024 – Present)  
-- Pre/post-processing of diffusion MRI, fMRI, ASL, T1w/FLAIR MRI  
-- Pipeline development using FSL/MRtrix/FreeSurfer/SPM/DIPY/AFNI and HPC workflows  
-- Clinical data organization and cognitive battery research support  
-- Protocol/regulatory documentation and mentoring students :contentReference[oaicite:5]{index=5}  
+**Study Coordinator**, Radiology  
+Albert Einstein College of Medicine, New York, USA (2024 – Present)  
+- Pre- and post-processing of diffusion MRI, fMRI, ASL, and structural MRI  
+- Development of scalable preprocessing pipelines using FSL, FreeSurfer, AFNI, ANTs, SPM, and DIPY  
+- Data curation, quality control, and HPC-based workflow automation  
+- Support for study protocols, regulatory documentation, and student mentoring  
 
-**Visiting Scholar**, Accessible MR Lab, Johns Hopkins University School of Medicine (Jan 2024 – May 2024)  
-- Low-field image analysis/optimization; volumetric + textural analysis; classifier modeling for treatment response :contentReference[oaicite:6]{index=6}  
+**Visiting Scholar**, Accessible MR Laboratory  
+Johns Hopkins University School of Medicine, USA (2024)  
+- Low-field MRI optimization and quantitative image analysis  
+- Volumetric and texture-based biomarker development  
 
-**Associate Researcher I**, Accessible MR Lab, Icahn School of Medicine at Mount Sinai (Apr 2023 – Dec 2023)  
-- Low-field MRI optimization; segmentation using FSL/FreeSurfer/ANTs; MRS localization and analysis support :contentReference[oaicite:7]{index=7}  
+**Associate Researcher I**, Accessible MR Laboratory  
+Icahn School of Medicine at Mount Sinai, USA (2023)  
+- MRI preprocessing and segmentation using FSL, FreeSurfer, and ANTs  
+- Support for spectroscopy localization and analysis  
 
-**Student Research Assistant**, Interdisciplinary Research Lab, TUM (Apr 2022 – Oct 2022)  
-- PET-MR DICOM sorting automation; registration & optical tracking calibration work (C++/Python) :contentReference[oaicite:8]{index=8}  
+**Student Research Assistant**, Interdisciplinary Research Lab  
+Technical University of Munich, Germany (2022)  
+- PET–MR DICOM sorting automation and image registration  
+- Optical tracking calibration using Python and C++
 
 ---
 
 ## Publications
 
-**Accepted**
-- Nandi S, Poojar P, Taufique S, et al. *MRI textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.* **NMR in Biomedicine** (2026). doi:10.1002/nbm.70193 :contentReference[oaicite:9]{index=9}  
-- McKenna FF*, Nandi S*, et al. *Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors…* **British Journal of Haematology** (2025). doi:10.1111/bjh.70300 (*co-first authors*) :contentReference[oaicite:10]{index=10}  
+- **Nandi S**, Poojar P, Taufique S, et al.  
+  *Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.*  
+  **NMR in Biomedicine**, 2026.  
+  https://doi.org/10.1002/nbm.70193
 
-**Under review**
-- Nguyen HQ, Hadidchi R, Eligulashvili A, Nandi S, et al. *COVID-19 and radiological progression of multiple sclerosis.* **Neuroradiology** (2025). :contentReference[oaicite:11]{index=11}  
+- McKenna FF*, **Nandi S***, et al.  
+  *Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.*  
+  **British Journal of Haematology**, 2025.  
+  (*Co-first author*)
+    https://doi.org/10.1111/bjh.70300
 
 ---
 
-## Conference Abstracts & Presentations (selected)
+## Conference Presentations (Selected)
 
-- ISMRM 2024 (Singapore): Amygdala texture sensitivity vs volumetry in CUD therapy cohort (Poster) :contentReference[oaicite:12]{index=12}  
-- ISMRM 2024 (Singapore): MRI4ALL hackathon for open-source ultra-low-field MRI (Oral) :contentReference[oaicite:13]{index=13}  
-- ISMRM Workshop on Accessible MRI 2024 (New Delhi): Low-field translation of texture biomarkers (Poster) :contentReference[oaicite:14]{index=14}  
+- ISMRM 2024, Singapore — Texture-based biomarkers in cocaine use disorder (Poster)  
+- ISMRM 2024 — MRI4ALL Hackathon: open-source ultra-low-field MRI (Oral)  
+- ISMRM Workshop on Accessible MRI 2024 — Low-field translation of texture biomarkers (Poster)
 
 ---
 
 ## Technical Skills
 
-- **Programming:** Python, C++, MATLAB, LaTeX, Shell, R, SQL  
+- **Programming:** Python, C++, MATLAB, R, SQL, Bash, LaTeX  
 - **Neuroimaging:** FSL, FreeSurfer, AFNI, ANTs, SPM, DIPY  
-- **Tools/Platforms:** Git, VS Code, PyCharm, Anaconda, HPC, Slurm; Windows/Linux/Darwin :contentReference[oaicite:15]{index=15}  
+- **Tools:** Git, Conda, VS Code, PyCharm, HPC, Slurm  
+- **Systems:** Linux, macOS, Windows
 
 ---
 
 ## Awards
 
-- ISMRM Trainee Stipend (ISMRM 2024) :contentReference[oaicite:16]{index=16}  
-- Best student award (JIS College Blue 2k17) :contentReference[oaicite:17]{index=17}  
+- ISMRM Trainee Stipend, 2024  
+- TUM Conference Travel Award (1000 Euros)
+- JIS College Blue 2017 (Best Student Award), JIS College of Engineering
+- JIS Samman (Departmental Topper) 2015-2016
 
 ---
 
 ## Contact
 
-- Email: YOUR_EMAIL  
-- Location: New York City, USA :contentReference[oaicite:18]{index=18}  
+Email: nandishounak2011@gmail.com  
+Location: New York City, USA
