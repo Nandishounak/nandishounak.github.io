@@ -68,7 +68,7 @@ Technical University of Munich, Germany (2022)
   **NMR in Biomedicine**, 2026.  
   https://doi.org/10.1002/nbm.70193
 
-- McKenna FF*, **Nandi S**, et al.  
+- McKenna FF, **Nandi S**, et al.  
   *Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.*  
   **British Journal of Haematology**, 2025.  
   (*Co-first author*)
