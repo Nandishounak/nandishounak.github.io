@@ -11,7 +11,7 @@ New York City, USA
 I work on multi-modal MRI analysis with a focus on diffusion microstructure modeling, low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems.
 
 **Quick links:**  
-[CV](/assets/CV.pdf) · [GitHub](https://github.com/nandishounak) · [LinkedIn](https://www.linkedin.com/in/shounak-nandi-b2b40b78/) · [Google Scholar](#) · [Email](mailto:nandishounak2011@gmail.com)
+[CV](/assets/CV.pdf) · [GitHub](https://github.com/nandishounak) · [LinkedIn](https://www.linkedin.com/in/shounak-nandi-b2b40b78/) · [Google Scholar](https://scholar.google.com/citations?user=nqoO0iwAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Shounak-Nandi?ev=hdr_xprf) · [Email](mailto:nandishounak2011@gmail.com)
 
 ---
 
@@ -68,7 +68,7 @@ Technical University of Munich, Germany (2022)
   **NMR in Biomedicine**, 2026.  
   https://doi.org/10.1002/nbm.70193
 
-- McKenna FF*, **Nandi S***, et al.  
+- McKenna FF*, **Nandi S**, et al.  
   *Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.*  
   **British Journal of Haematology**, 2025.  
   (*Co-first author*)
