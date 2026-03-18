@@ -1,10 +1,10 @@
 :root {
   --maxw: 980px;
-  --text: #1f2937;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --link: #0f4c81;
-  --bg: #ffffff;
+  --text: #1a1a2e;
+  --muted: #4a5568;
+  --line: rgba(255,255,255,0.25);
+  --link: #4a9eda;
+  --bg: transparent;
 }
 
 * { box-sizing: border-box; }
@@ -15,21 +15,42 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
   color: var(--text);
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.65;
+  background-color: #0a0a14;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Brain_MRI.jpg/1280px-Brain_MRI.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(8, 8, 20, 0.82);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .wrap {
   max-width: var(--maxw);
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .site-header {
-  border-bottom: 1px solid var(--line);
-  background: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  background: rgba(8, 8, 20, 0.75);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .nav {
@@ -42,9 +63,10 @@ body {
 
 .brand a {
   text-decoration: none;
-  color: var(--text);
+  color: #e2e8f0;
   font-size: 1.15rem;
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 nav {
@@ -55,13 +77,14 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: var(--link);
+  color: #90caf9;
   font-size: 0.98rem;
 }
 
 nav a:hover,
 a:hover {
   text-decoration: underline;
+  color: #bbdefb;
 }
 
 .content {
@@ -69,12 +92,22 @@ a:hover {
   padding-bottom: 56px;
 }
 
+/* Content card — frosted glass panel */
+.content > *,
+.hero {
+  background: rgba(240, 245, 255, 0.92);
+  border-radius: 10px;
+  padding: 28px 32px;
+  margin-bottom: 24px;
+  color: #1a1a2e;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.45);
+}
+
 .hero {
   display: grid;
   grid-template-columns: 240px 1fr;
   gap: 32px;
   align-items: start;
-  margin-bottom: 28px;
 }
 
 .profile-photo {
@@ -82,34 +115,40 @@ a:hover {
   max-width: 220px;
   border-radius: 8px;
   display: block;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
 }
 
 h1 {
   margin: 0 0 8px;
   font-size: 2.15rem;
   line-height: 1.15;
+  color: #1a1a2e;
 }
 
 h2 {
-  margin-top: 34px;
+  margin-top: 0;
   margin-bottom: 10px;
   font-size: 1.35rem;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(26,26,46,0.2);
   padding-bottom: 6px;
+  color: #1a1a2e;
 }
 
 h3 {
   margin-top: 20px;
   margin-bottom: 6px;
   font-size: 1.05rem;
+  color: #1a1a2e;
 }
 
 p {
   margin: 10px 0;
+  color: #2d3748;
 }
 
 ul {
   padding-left: 20px;
+  color: #2d3748;
 }
 
 li {
@@ -117,7 +156,7 @@ li {
 }
 
 .muted {
-  color: var(--muted);
+  color: #4a5568;
 }
 
 .links {
@@ -126,12 +165,17 @@ li {
 
 .links a {
   margin-right: 14px;
-  color: var(--link);
+  color: #1a56a0;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .links a:hover {
   text-decoration: underline;
+}
+
+a {
+  color: #1a56a0;
 }
 
 .news-list {
@@ -141,7 +185,8 @@ li {
 
 .news-list li {
   padding: 8px 0;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(26,26,46,0.15);
+  color: #2d3748;
 }
 
 .two-col {
@@ -152,17 +197,20 @@ li {
 
 .pub {
   margin-bottom: 14px;
+  color: #2d3748;
 }
 
 @media (max-width: 760px) {
   .hero,
-  .two-col,
-  .nav {
+  .two-col {
     grid-template-columns: 1fr;
     display: block;
   }
 
   .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -174,5 +222,10 @@ li {
   .profile-photo {
     max-width: 180px;
     margin-bottom: 18px;
+  }
+
+  .content > *,
+  .hero {
+    padding: 18px 16px;
   }
 }
