@@ -5,7 +5,7 @@ title: Shounak Nandi
 
 <div class="hero">
   <div>
-    <img class="profile-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Shounak Nandi">
+    <img class="profile-photo" src="{{ '/assets/img/772C971B-78C4-4E04-974A-E30175BE66EA.jpg' | relative_url }}" alt="Shounak Nandi">
   </div>
 
   <div>
