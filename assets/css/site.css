@@ -1,9 +1,9 @@
 :root {
   --maxw: 980px;
-  --text: #1a1a2e;
-  --muted: #4a5568;
-  --line: rgba(255,255,255,0.25);
-  --link: #4a9eda;
+  --text: #f0f4ff;
+  --muted: #a0aec0;
+  --line: rgba(255,255,255,0.15);
+  --link: #63b3ed;
   --bg: transparent;
 }
 
@@ -63,7 +63,7 @@ body::before {
 
 .brand a {
   text-decoration: none;
-  color: #e2e8f0;
+  color: #ffffff;
   font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -77,14 +77,13 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #90caf9;
+  color: var(--link);
   font-size: 0.98rem;
 }
 
-nav a:hover,
-a:hover {
+nav a:hover {
   text-decoration: underline;
-  color: #bbdefb;
+  color: #90cdf4;
 }
 
 .content {
@@ -92,90 +91,108 @@ a:hover {
   padding-bottom: 56px;
 }
 
-/* Content card — frosted glass panel */
-.content > *,
-.hero {
-  background: rgba(240, 245, 255, 0.92);
-  border-radius: 10px;
-  padding: 28px 32px;
-  margin-bottom: 24px;
-  color: #1a1a2e;
-  box-shadow: 0 4px 32px rgba(0,0,0,0.45);
+/* No boxes — transparent sections */
+.content > * {
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 36px;
+  box-shadow: none;
+  color: var(--text);
 }
 
 .hero {
   display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 32px;
+  grid-template-columns: 220px 1fr;
+  gap: 36px;
   align-items: start;
+  margin-bottom: 40px;
+  background: none;
+  padding: 0;
+  box-shadow: none;
 }
 
 .profile-photo {
   width: 100%;
-  max-width: 220px;
+  max-width: 210px;
   border-radius: 8px;
   display: block;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 18px rgba(0,0,0,0.6);
 }
 
 h1 {
   margin: 0 0 8px;
   font-size: 2.15rem;
   line-height: 1.15;
-  color: #1a1a2e;
+  color: #ffffff;
 }
 
 h2 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-size: 1.35rem;
-  border-bottom: 1px solid rgba(26,26,46,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
   padding-bottom: 6px;
-  color: #1a1a2e;
+  color: #ffffff;
 }
 
 h3 {
   margin-top: 20px;
   margin-bottom: 6px;
   font-size: 1.05rem;
-  color: #1a1a2e;
+  color: #e2e8f0;
 }
 
 p {
   margin: 10px 0;
-  color: #2d3748;
+  color: #d1daf0;
 }
 
 ul {
   padding-left: 20px;
-  color: #2d3748;
+  color: #d1daf0;
 }
 
 li {
   margin: 6px 0;
 }
 
+strong {
+  color: #ffffff;
+}
+
+em {
+  color: #d1daf0;
+}
+
 .muted {
-  color: #4a5568;
+  color: var(--muted);
 }
 
 .links {
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .links a {
   margin-right: 14px;
-  color: #1a56a0;
+  color: var(--link);
   text-decoration: none;
   font-weight: 500;
 }
 
 .links a:hover {
   text-decoration: underline;
+  color: #90cdf4;
 }
 
 a {
-  color: #1a56a0;
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #90cdf4;
 }
 
 .news-list {
@@ -185,8 +202,8 @@ a {
 
 .news-list li {
   padding: 8px 0;
-  border-bottom: 1px solid rgba(26,26,46,0.15);
-  color: #2d3748;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  color: #d1daf0;
 }
 
 .two-col {
@@ -197,7 +214,34 @@ a {
 
 .pub {
   margin-bottom: 14px;
-  color: #2d3748;
+  color: #d1daf0;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid rgba(255,255,255,0.12);
+  background: rgba(8, 8, 20, 0.75);
+  backdrop-filter: blur(6px);
+  padding: 18px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.88rem;
+  color: rgba(200, 210, 230, 0.7);
+}
+
+.site-footer a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+  color: #90cdf4;
 }
 
 @media (max-width: 760px) {
@@ -223,37 +267,4 @@ a {
     max-width: 180px;
     margin-bottom: 18px;
   }
-
-  .content > *,
-  .hero {
-    padding: 18px 16px;
-  }
-}
-
-
-/* Footer */
-.site-footer {
-  border-top: 1px solid rgba(255,255,255,0.12);
-  background: rgba(8, 8, 20, 0.75);
-  backdrop-filter: blur(6px);
-  padding: 18px 0;
-  position: relative;
-  z-index: 1;
-}
-
-.site-footer p {
-  margin: 0;
-  text-align: center;
-  font-size: 0.88rem;
-  color: rgba(200, 210, 230, 0.7);
-}
-
-.site-footer a {
-  color: #90caf9;
-  text-decoration: none;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-  color: #bbdefb;
 }
