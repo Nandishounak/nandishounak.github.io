@@ -7,7 +7,21 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  <main class="container">
+  <header class="site-header">
+    <div class="wrap nav">
+      <div class="brand">
+        <a href="{{ '/' | relative_url }}">Shounak Nandi</a>
+      </div>
+      <nav>
+        <a href="{{ '/' | relative_url }}">About</a>
+        <a href="{{ '/research' | relative_url }}">Research</a>
+        <a href="{{ '/news' | relative_url }}">News</a>
+        <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap content">
     {{ content }}
   </main>
 </body>
