@@ -4,7 +4,7 @@ title: Shounak Nandi
 ---
 
 <div class="hero">
-  <div>
+  <div class="profile-photo-wrap">
     <img id="profile-photo" class="profile-photo" src="{{ '/assets/img/profile1.jpg' | relative_url }}" alt="Shounak Nandi">
   </div>
 
@@ -41,7 +41,6 @@ title: Shounak Nandi
 
 I am currently a **Study Coordinator** in Radiology at Albert Einstein College of Medicine in New York.
 My research focuses on diffusion MRI, low-field MRI, multimodal imaging workflows, and reproducible computational pipelines.
-
 Previously, I worked with the Accessible MR Laboratory at Johns Hopkins University School of Medicine and Icahn School of Medicine at Mount Sinai.
 I hold an M.Sc. in Biomedical Engineering & Medical Physics from the Technical University of Munich.
 
@@ -56,10 +55,10 @@ I hold an M.Sc. in Biomedical Engineering & Medical Physics from the Technical U
 
 ## Education
 
-**M.Sc., Biomedical Engineering & Medical Physics**  
+**M.Sc., Biomedical Engineering & Medical Physics**
 Technical University of Munich, Germany (2024)
 
-**B.Tech., Biomedical Engineering**  
+**B.Tech., Biomedical Engineering**
 Maulana Abul Kalam Azad University of Technology, India (2017)
 
 ## Selected Updates
@@ -69,3 +68,15 @@ Maulana Abul Kalam Azad University of Technology, India (2017)
 - **Jan 2026:** Paper 2 published.
 
 For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.
+
+<script>
+var photos = [
+  "{{ '/assets/img/profile1.jpg' | relative_url }}",
+  "{{ '/assets/img/profile2.jpg' | relative_url }}",
+  "{{ '/assets/img/profile3.jpg' | relative_url }}"
+];
+var img = document.getElementById('profile-photo');
+if (img) {
+  img.src = photos[Math.floor(Math.random() * photos.length)];
+}
+</script>
