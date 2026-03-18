@@ -30,5 +30,19 @@
       <p>Inspired by <a href="https://zstoebs.github.io/" target="_blank" rel="noopener">Zachary Stoebner</a>.</p>
     </div>
   </footer>
+
+  <script>
+    // Random profile photo on each page load
+    var photos = [
+      "/assets/img/profile1.jpg",
+      "/assets/img/profile2.jpg",
+      "/assets/img/profile3.jpg"
+    ];
+    var img = document.getElementById("profile-photo");
+    if (img) {
+      var pick = photos[Math.floor(Math.random() * photos.length)];
+      img.src = pick;
+    }
+  </script>
 </body>
 </html>
