@@ -77,9 +77,9 @@ Beyond research, I like to spend time in [music](https://www.youtube.com/@Shouna
 <script>
 (function() {
   var photos = [
-    "{{ '/assets/img/profile2.jpeg' | relative_url }}",
+    "{{ '/assets/img/profile1.jpg' | relative_url }}", "{{ '/assets/img/profile2.jpeg' | relative_url }}",
     "{{ '/assets/img/profile3.jpeg' | relative_url }}",
-    "{{ '/assets/img/profile7.jpeg' | relative_url }}"
+    "{{ '/assets/img/profile4.jpeg' | relative_url }}", "{{ '/assets/img/profile5.jpeg' | relative_url }}", "{{ '/assets/img/profile7.jpeg' | relative_url }}"
   ];
 
   function shuffle(arr) {
