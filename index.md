@@ -4,7 +4,7 @@ title: Shounak Nandi
 ---
 
 <div class="hero">
-  <img id="profile-photo" class="profile-photo" src="{{ '/assets/img/profile2.jpeg' | relative_url }}" alt="Shounak Nandi">
+  <img id="profile-photo" class="profile-photo" src="" alt="Shounak Nandi" style="display:none;">
 
   <div>
     <h1>Shounak Nandi</h1>
@@ -69,19 +69,48 @@ For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/resea
 
 ## More About Me
 
-Beyond research, I love to spend my time in music and little bit of photography:
+Beyond research, I share science and life through creative media:
 
 - **YouTube:** [Shounak Nandi](https://www.youtube.com/@ShounakNandi)
-- **Instagram:** [@image\_dot\_jpeg](https://www.instagram.com/image_dot_jpeg)
+- **Instagram:** [@image\_dot\_jpeg](https://www.instagram.com/image.dot.jpeg)
 
 <script>
-var photos = [
-  "{{ '/assets/img/profile2.jpeg' | relative_url }}",
-  "{{ '/assets/img/profile3.jpeg' | relative_url }}",
-  "{{ '/assets/img/profile7.jpeg' | relative_url }}"
-];
-var img = document.getElementById('profile-photo');
-if (img) {
-  img.src = photos[Math.floor(Math.random() * photos.length)];
-}
+(function() {
+  var photos = [
+    "{{ '/assets/img/profile2.jpeg' | relative_url }}",
+    "{{ '/assets/img/profile3.jpeg' | relative_url }}",
+    "{{ '/assets/img/profile7.jpeg' | relative_url }}"
+  ];
+
+  // Shuffle array randomly
+  for (var i = photos.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = photos[i]; photos[i] = photos[j]; photos[j] = tmp;
+  }
+
+  var img = document.getElementById('profile-photo');
+  if (!img) return;
+
+  var index = 0;
+
+  function tryNext() {
+    if (index >= photos.length) {
+      // No valid photo found, keep image hidden
+      return;
+    }
+    var tester = new Image();
+    tester.onload = function() {
+      img.src = this.src;
+      img.style.display = 'block';
+    };
+    tester.onerror = function() {
+      index++;
+      tryNext();
+    };
+    tester.src = photos[index];
+    index++;
+  }
+
+  tryNext();
+})();
 </script>
