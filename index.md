@@ -67,6 +67,13 @@ Maulana Abul Kalam Azad University of Technology, India (2017)
 
 For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.
 
+## More About Me
+
+Beyond research, I share science and life through creative media:
+
+- **YouTube:** [Shounak Nandi](https://www.youtube.com/@ShounakNandi)
+- **Instagram:** [@image\_dot\_jpeg](https://www.instagram.com/image.dot.jpeg)
+
 <script>
 var photos = [
   "{{ '/assets/img/profile2.jpeg' | relative_url }}",
