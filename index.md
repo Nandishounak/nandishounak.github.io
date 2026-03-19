@@ -28,7 +28,7 @@ title: Shounak Nandi
       computational efficiency, and clinically meaningful imaging biomarkers.
     </p>
 
-    <p>
+    <p style="display:flex; gap:14px; flex-wrap:wrap;">
       <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
       <a href="https://github.com/nandishounak">GitHub</a>
       <a href="https://www.linkedin.com/in/shounak-nandi-b2b40b78/">LinkedIn</a>
