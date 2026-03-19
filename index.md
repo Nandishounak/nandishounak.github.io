@@ -85,7 +85,6 @@ Beyond research, I share science and life through creative media:
     "{{ '/assets/img/profile7.jpeg' | relative_url }}"
   ];
 
-  // Shuffle array
   function shuffle(arr) {
     for (var i = arr.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
@@ -94,17 +93,23 @@ Beyond research, I share science and life through creative media:
     return arr;
   }
 
-  // Try each photo in order; show first one that loads
-  function loadPhoto(list, startIndex, imgEl, onSuccess) {
-    if (startIndex >= list.length) return;
+  // currentSrc tracks the relative path currently shown
+  var currentSrc = null;
+
+  function loadPhoto(list, startIndex, imgEl, onDone) {
+    if (startIndex >= list.length) {
+      if (onDone) onDone(false);
+      return;
+    }
     var tester = new Image();
     tester.onload = function() {
       imgEl.src = this.src;
       imgEl.style.display = 'block';
-      if (onSuccess) onSuccess(startIndex);
+      currentSrc = list[startIndex];
+      if (onDone) onDone(true);
     };
     tester.onerror = function() {
-      loadPhoto(list, startIndex + 1, imgEl, onSuccess);
+      loadPhoto(list, startIndex + 1, imgEl, onDone);
     };
     tester.src = list[startIndex];
   }
@@ -113,26 +118,31 @@ Beyond research, I share science and life through creative media:
   var btn = document.getElementById('refresh-photo');
   if (!img) return;
 
-  var shuffled = shuffle(photos.slice());
-  var currentIndex = 0;
+  // Initial load: shuffled
+  loadPhoto(shuffle(photos.slice()), 0, img, null);
 
-  // Initial load
-  loadPhoto(shuffled, 0, img, function(idx) { currentIndex = idx; });
-
-  // Refresh button: pick next different photo
   if (btn) {
+    var busy = false;
     btn.addEventListener('click', function() {
-      btn.style.transform = 'rotate(360deg)';
+      if (busy) return;
+      busy = true;
+
+      // Spin animation
       btn.style.transition = 'transform 0.4s ease';
+      btn.style.transform = 'rotate(360deg)';
       setTimeout(function() {
         btn.style.transform = '';
         btn.style.transition = '';
       }, 400);
 
-      // Build a new shuffled list excluding current photo
-      var others = photos.filter(function(p) { return p !== img.src; });
-      var next = shuffle(others.slice());
-      loadPhoto(next, 0, img, null);
+      // Exclude current photo by comparing relative paths
+      var others = photos.filter(function(p) { return p !== currentSrc; });
+      // If only one photo exists or all are same, use full list
+      if (others.length === 0) others = photos.slice();
+
+      loadPhoto(shuffle(others), 0, img, function() {
+        busy = false;
+      });
     });
   }
 })();
