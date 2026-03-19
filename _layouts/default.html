@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
-    <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
@@ -21,33 +22,13 @@
       </nav>
     </div>
   </header>
-
   <main class="wrap content">
     {{ content }}
   </main>
-
   <footer class="site-footer">
     <div class="wrap">
       <p>Inspired by <a href="https://zstoebs.github.io/" target="_blank" rel="noopener">Zachary Stoebner</a>.</p>
     </div>
   </footer>
-
-  <script>
-    // Random profile photo on each page load
-    var photos = [
-      "/assets/img/772C971B-78C4-4E04-974A-E30175BE66EA.jpg",
-      "/assets/img/profile2.jpeg",
-      "/assets/img/profile3.jpeg",
-      "/assets/img/profile4.JPG",
-      "/assets/img/profile5.JPG",
-      "/assets/img/profile6.JPG",
-      "/assets/img/profile7.jpeg"
-    ];
-    var img = document.getElementById("profile-photo");
-    if (img) {
-      var pick = photos[Math.floor(Math.random() * photos.length)];
-      img.src = pick;
-    }
-  </script>
 </body>
 </html>
