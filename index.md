@@ -4,7 +4,10 @@ title: Shounak Nandi
 ---
 
 <div class="hero">
-  <img id="profile-photo" class="profile-photo" src="" alt="Shounak Nandi" style="display:none;">
+  <div class="photo-col">
+    <img id="profile-photo" class="profile-photo" src="" alt="Shounak Nandi" style="display:none;">
+    <button id="refresh-photo" class="refresh-btn" title="Show another photo">&#x21bb;</button>
+  </div>
 
   <div>
     <h1>Shounak Nandi</h1>
@@ -82,35 +85,55 @@ Beyond research, I share science and life through creative media:
     "{{ '/assets/img/profile7.jpeg' | relative_url }}"
   ];
 
-  // Shuffle array randomly
-  for (var i = photos.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    var tmp = photos[i]; photos[i] = photos[j]; photos[j] = tmp;
+  // Shuffle array
+  function shuffle(arr) {
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+    }
+    return arr;
+  }
+
+  // Try each photo in order; show first one that loads
+  function loadPhoto(list, startIndex, imgEl, onSuccess) {
+    if (startIndex >= list.length) return;
+    var tester = new Image();
+    tester.onload = function() {
+      imgEl.src = this.src;
+      imgEl.style.display = 'block';
+      if (onSuccess) onSuccess(startIndex);
+    };
+    tester.onerror = function() {
+      loadPhoto(list, startIndex + 1, imgEl, onSuccess);
+    };
+    tester.src = list[startIndex];
   }
 
   var img = document.getElementById('profile-photo');
+  var btn = document.getElementById('refresh-photo');
   if (!img) return;
 
-  var index = 0;
+  var shuffled = shuffle(photos.slice());
+  var currentIndex = 0;
 
-  function tryNext() {
-    if (index >= photos.length) {
-      // No valid photo found, keep image hidden
-      return;
-    }
-    var tester = new Image();
-    tester.onload = function() {
-      img.src = this.src;
-      img.style.display = 'block';
-    };
-    tester.onerror = function() {
-      index++;
-      tryNext();
-    };
-    tester.src = photos[index];
-    index++;
+  // Initial load
+  loadPhoto(shuffled, 0, img, function(idx) { currentIndex = idx; });
+
+  // Refresh button: pick next different photo
+  if (btn) {
+    btn.addEventListener('click', function() {
+      btn.style.transform = 'rotate(360deg)';
+      btn.style.transition = 'transform 0.4s ease';
+      setTimeout(function() {
+        btn.style.transform = '';
+        btn.style.transition = '';
+      }, 400);
+
+      // Build a new shuffled list excluding current photo
+      var others = photos.filter(function(p) { return p !== img.src; });
+      var next = shuffle(others.slice());
+      loadPhoto(next, 0, img, null);
+    });
   }
-
-  tryNext();
 })();
 </script>
