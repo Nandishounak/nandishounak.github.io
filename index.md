@@ -5,7 +5,7 @@ title: Shounak Nandi
 
 <div class="hero">
   <div class="profile-photo-wrap">
-    <img id="profile-photo" class="profile-photo" src="{{ '/assets/img/profile1.jpg' | relative_url }}" alt="Shounak Nandi">
+    <img id="profile-photo" class="profile-photo" src="{{ '/assets/img/profile2.jpeg' | relative_url }}" alt="Shounak Nandi">
   </div>
 
   <div>
@@ -71,9 +71,9 @@ For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/resea
 
 <script>
 var photos = [
-  "{{ '/assets/img/profile1.jpg' | relative_url }}",
-  "{{ '/assets/img/profile2.jpg' | relative_url }}",
-  "{{ '/assets/img/profile3.jpg' | relative_url }}"
+  "{{ '/assets/img/profile2.jpeg' | relative_url }}",
+  "{{ '/assets/img/profile3.jpeg' | relative_url }}",
+  "{{ '/assets/img/profile7.jpeg' | relative_url }}"
 ];
 var img = document.getElementById('profile-photo');
 if (img) {
