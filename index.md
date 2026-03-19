@@ -72,10 +72,7 @@ For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/resea
 
 ## More About Me
 
-Beyond research, I share science and life through creative media:
-
-- **YouTube:** [Shounak Nandi](https://www.youtube.com/@ShounakNandi)
-- **Instagram:** [@image\_dot\_jpeg](https://www.instagram.com/image.dot.jpeg)
+Beyond research, I like to spend time in [music](https://www.youtube.com/@ShounakNandi), racquet sports, gym, and little bit to [photography](https://www.instagram.com/image.dot.jpeg).
 
 <script>
 (function() {
