@@ -45,18 +45,12 @@ I am currently a **Study Coordinator** in Radiology at Albert Einstein College o
 
 ## Research Interests
 
-- &bull;  
-  Diffusion MRI microstructure modeling
-- &bull;  
-  Low-field and accessible MRI
-- &bull;  
-  Multimodal neuroimaging preprocessing
-- &bull;  
-  Quantitative imaging biomarkers
-- &bull;  
-  Reproducible pipelines and HPC workflows
-- &bull;  
-  Statistical analysis and machine learning for imaging
+- Diffusion MRI microstructure modeling
+- Low-field and accessible MRI
+- Multimodal neuroimaging preprocessing
+- Quantitative imaging biomarkers
+- Reproducible pipelines and HPC workflows
+- Statistical analysis and machine learning for imaging
 
 ## Education
 
@@ -66,9 +60,9 @@ I am currently a **Study Coordinator** in Radiology at Albert Einstein College o
 
 ## Selected Updates
 
-- &bull; **Feb 2026:** ISMRM abstracts accepted.
-- &bull; **Jan 2026:** Paper 1 published.
-- &bull; **Jan 2026:** Paper 2 published.
+- **Feb 2026:** ISMRM abstracts accepted.
+- **Jan 2026:** Paper 1 published.
+- **Jan 2026:** Paper 2 published.
 
 For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.
 
