@@ -69,7 +69,8 @@ British Journal of Haematology, 2025.<br>
 </div>
 
 ## Conference Presentations
-
+- ISMRM 2026, Cape Town — LASSO-informed texture analysis (Poster)
+- SOBP 2026, New York City — Bingham-NODDI study on pediatric cancer survivors (Poster)
 - ISMRM 2024, Singapore — Texture-based biomarkers in cocaine use disorder (Poster)
 - ISMRM 2024 — MRI4ALL Hackathon: open-source ultra-low-field MRI (Oral)
 - ISMRM Workshop on Accessible MRI 2024 — Low-field translation of texture biomarkers (Poster)
