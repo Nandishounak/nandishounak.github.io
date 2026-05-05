@@ -60,9 +60,9 @@ I am currently a **Study Coordinator** in Radiology at Albert Einstein College o
 
 ## Selected Updates
 
-- **Feb 2026:** ISMRM abstracts accepted.
-- **Jan 2026:** Paper 1 published.
-- **Jan 2026:** Paper 2 published.
+- **May 2026:** Presenting a digital poster at the ISMRM Annual meeting.
+- **Apr 2026:** Presented a traditional poster on Diffusion MRI at the SOBP conference, New York.
+- **Jan 2026:** Recent work on IVIM study on pediatric cancer survivors published in the British Journal of Heamatology.
 
 For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.
 
