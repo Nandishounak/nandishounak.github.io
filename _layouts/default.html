@@ -3,12 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {% if page.permalink == '/research/' %}
+  <link rel="stylesheet" href="{{ '/assets/css/research-compact.css' | relative_url }}">
+  {% endif %}
 </head>
 <body>
-  <main class="container">
+  <header class="site-header">
+    <div class="wrap nav">
+      <div class="brand">
+        <a href="{{ '/' | relative_url }}">Shounak Nandi</a>
+      </div>
+      <nav>
+        <a href="{{ '/' | relative_url }}">About</a>
+        <a href="{{ '/research' | relative_url }}">Research</a>
+        <a href="{{ '/news' | relative_url }}">News</a>
+        <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap content">
     {{ content }}
   </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Inspired by <a href="https://zstoebs.github.io/" target="_blank" rel="noopener">Zachary Stoebner</a>.</p>
+    </div>
+  </footer>
 </body>
 </html>

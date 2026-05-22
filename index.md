@@ -4,161 +4,116 @@ title: Shounak Nandi
 ---
 
 <div class="hero">
+  <div class="photo-col">
+    <img id="profile-photo" class="profile-photo" src="" alt="Shounak Nandi"
+    style="display:none;">
+    <button id="refresh-photo" class="refresh-btn" title="Show another photo">&#x21bb;</button>
+  </div>
 
-<h1>Shounak Nandi</h1>
+  <div>
+    <h1>Shounak Nandi</h1>
 
-<p class="muted">
-<strong>Neuroimaging Researcher</strong> · MRI · Diffusion Imaging · Reproducible Pipelines<br>
-New York City, USA
-</p>
+    <p class="muted">
+      Neuroimaging Researcher<br>
+      New York City, USA
+    </p>
 
-<p>
-I work on multi-modal MRI analysis with a focus on diffusion microstructure modeling,
-low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems.
-</p>
+    <p>
+      I am a neuroimaging researcher working on multi-modal MRI analysis, diffusion microstructure modeling,
+      low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems.
+    </p>
 
-<div class="links">
-  <a class="btn" href="/assets/CV.pdf">CV</a>
-  <a class="btn" href="https://github.com/nandishounak">GitHub</a>
-  <a class="btn" href="https://www.linkedin.com/in/shounak-nandi-b2b40b78/">LinkedIn</a>
-  <a class="btn" href="mailto:nandishounak2011@gmail.com">Email</a>
+    <p>
+      My work spans diffusion MRI, fMRI, ASL, and structural MRI, with an emphasis on reproducibility,
+      computational efficiency, and clinically meaningful imaging biomarkers.
+    </p>
+
+    <p style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
+      <a href="https://github.com/nandishounak">GitHub</a>
+      <a href="https://www.linkedin.com/in/shounak-nandi-b2b40b78/">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=nqoO0iwAAAAJ&hl=en">Google Scholar</a>
+      <a href="https://orcid.org/0000-0003-3588-3838">ORCID</a>
+      <a href="mailto:nandishounak2011@gmail.com">Email</a>
+    </p>
+  </div>
 </div>
 
-<div class="badges">
-  <a class="badge" href="https://scholar.google.com/citations?user=nqoO0iwAAAAJ&hl=en" target="_blank" rel="noopener">
-    <span class="dot"></span><strong>Google Scholar</strong>
-  </a>
-  <a class="badge" href="https://orcid.org/0000-0003-3588-3838" target="_blank" rel="noopener">
-    <span class="dot"></span><strong>ORCID</strong> <small>(0000-0003-3588-3838)</small>
-  </a>
-  <a class="badge" href="https://www.researchgate.net/profile/Shounak-Nandi?ev=hdr_xprf" target="_blank" rel="noopener">
-    <span class="dot"></span><strong>ResearchGate</strong>
-  </a>
-</div>
+## About
 
-</div>
-
-## Projects
-
-<div class="grid">
-
-<div class="card">
-<h3>NODDI-Bingham GPU pipeline</h3>
-<p>
-End-to-end diffusion MRI microstructure modeling pipeline with GPU acceleration and
-HPC scheduling for large-scale datasets (e.g., HCP-style acquisitions).
-</p>
-<div class="tags">
-<span class="tag">Diffusion MRI</span>
-<span class="tag">PyTorch</span>
-<span class="tag">SLURM</span>
-<span class="tag">HPC</span>
-</div>
-</div>
-
-<div class="card">
-<h3>Low-field MRI texture biomarkers</h3>
-<p>
-Texture-based and volumetric analysis of subcortical structures to evaluate sensitivity
-of low-field MRI biomarkers in substance use disorder cohorts.
-</p>
-<div class="tags">
-<span class="tag">Low-field MRI</span>
-<span class="tag">Neuroimaging</span>
-<span class="tag">Biomarkers</span>
-</div>
-</div>
-
-<div class="card">
-<h3>Multimodal MRI preprocessing & QC pipelines</h3>
-<p>
-Reproducible preprocessing and quality-control workflows for diffusion MRI, fMRI,
-ASL, and structural MRI using standardized neuroimaging toolchains.
-</p>
-<div class="tags">
-<span class="tag">FSL</span>
-<span class="tag">FreeSurfer</span>
-<span class="tag">AFNI</span>
-<span class="tag">DIPY</span>
-</div>
-</div>
-
-</div>
+I am currently a **Study Coordinator** in Radiology at Albert Einstein College of Medicine in New York. My research focuses on diffusion MRI, low-field MRI, multimodal imaging workflows, and reproducible computational pipelines. Previously, I worked with the Accessible MR Laboratory at Johns Hopkins University School of Medicine and Icahn School of Medicine at Mount Sinai. I hold an M.Sc. in Biomedical Engineering & Medical Physics from the Technical University of Munich.
 
 ## Research Interests
 
-- Diffusion MRI microstructure modeling (e.g., NODDI-Bingham)
+- Diffusion MRI microstructure modeling
 - Low-field and accessible MRI
-- Robust and reproducible neuroimaging pipelines (HPC, Slurm)
-- Multimodal MRI preprocessing and quantitative biomarkers
-- Statistical analysis and machine learning for neuroimaging
+- Multimodal neuroimaging preprocessing
+- Quantitative imaging biomarkers
+- Reproducible pipelines and HPC workflows
+- Statistical analysis and machine learning for imaging
 
 ## Education
 
-**M.Sc., Biomedical Engineering & Medical Physics**  
-Technical University of Munich, Germany (2024)
+**M.Sc., Biomedical Engineering & Medical Physics** Technical University of Munich, Germany (2024)
 
-**B.Tech., Biomedical Engineering**  
-Maulana Abul Kalam Azad University of Technology, India (2017)
+**B.Tech., Biomedical Engineering** Maulana Abul Kalam Azad University of Technology, India (2017)
 
-## Research & Professional Experience
+## Selected Updates
 
-**Study Coordinator**, Radiology  
-Albert Einstein College of Medicine, New York, USA (2024 – Present)  
-- Pre- and post-processing of diffusion MRI, fMRI, ASL, and structural MRI  
-- Development of scalable preprocessing pipelines using FSL, FreeSurfer, AFNI, ANTs, SPM, and DIPY  
-- Data curation, quality control, and HPC-based workflow automation  
-- Support for study protocols, regulatory documentation, and student mentoring  
+- **May 2026:** Presenting a digital poster at the ISMRM Annual meeting.
+- **Apr 2026:** Presented a traditional poster on Diffusion MRI at the SOBP conference, New York.
+- **Jan 2026:** Recent work on IVIM study on pediatric cancer survivors published in the British Journal of Heamatology.
 
-**Visiting Scholar**, Accessible MR Laboratory  
-Johns Hopkins University School of Medicine, USA (2024)  
-- Low-field MRI optimization and quantitative image analysis  
-- Volumetric and texture-based biomarker development  
+For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.
 
-**Associate Researcher I**, Accessible MR Laboratory  
-Icahn School of Medicine at Mount Sinai, USA (2023)  
-- MRI preprocessing and segmentation using FSL, FreeSurfer, and ANTs  
-- Support for spectroscopy localization and analysis  
+## More About Me
 
-**Student Research Assistant**, Interdisciplinary Research Lab  
-Technical University of Munich, Germany (2022)  
-- PET–MR DICOM sorting automation and image registration  
-- Optical tracking calibration using Python and C++
+Beyond research, I like to spend time in [music](https://www.youtube.com/@ShounakNandi), racquet sports, gym, and little bit to [photography](https://www.instagram.com/image_dot_jpeg/).
 
-## Publications
-
-- **Nandi S**, Poojar P, Taufique S, et al.  
-  *Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.*  
-  **NMR in Biomedicine**, 2026.  
-  https://doi.org/10.1002/nbm.70193
-
-- McKenna FF, **Nandi S**, et al.  
-  *Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.*  
-  **British Journal of Haematology**, 2025.  
-  (*Co-first author*)  
-  https://doi.org/10.1111/bjh.70300
-
-## Conference Presentations (Selected)
-
-- ISMRM 2024, Singapore — Texture-based biomarkers in cocaine use disorder (Poster)  
-- ISMRM 2024 — MRI4ALL Hackathon: open-source ultra-low-field MRI (Oral)  
-- ISMRM Workshop on Accessible MRI 2024 — Low-field translation of texture biomarkers (Poster)
-
-## Technical Skills
-
-- **Programming:** Python, C++, MATLAB, R, SQL, Bash, LaTeX  
-- **Neuroimaging:** FSL, FreeSurfer, AFNI, ANTs, SPM, DIPY  
-- **Tools:** Git, Conda, VS Code, PyCharm, HPC, Slurm  
-- **Systems:** Linux, macOS, Windows
-
-## Awards
-
-- ISMRM Trainee Stipend, 2024  
-- TUM Conference Travel Award (1000 Euros)  
-- JIS College Blue 2017 (Best Student Award), JIS College of Engineering  
-- JIS Samman (Departmental Topper), 2015–2016
-
-<div class="footer">
-<strong>Contact:</strong> <a href="mailto:nandishounak2011@gmail.com">nandishounak2011@gmail.com</a><br>
-New York City, USA
-</div>
+<script>
+(function() {
+  var photos = [
+    "{{ '/assets/img/profile2.jpeg' | relative_url }}",
+    "{{ '/assets/img/profile5.jpeg' | relative_url }}",
+    "{{ '/assets/img/profile1.JPG' | relative_url }}",
+    "{{ '/assets/img/profile3.jpeg' | relative_url }}"
+  ];
+  function shuffle(arr) {
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+    }
+    return arr;
+  }
+  var currentSrc = null;
+  function loadPhoto(list, startIndex, imgEl, onDone) {
+    if (startIndex >= list.length) { if (onDone) onDone(false); return; }
+    var tester = new Image();
+    tester.onload = function() {
+      imgEl.src = this.src;
+      imgEl.style.display = 'block';
+      currentSrc = list[startIndex];
+      if (onDone) onDone(true);
+    };
+    tester.onerror = function() { loadPhoto(list, startIndex + 1, imgEl, onDone); };
+    tester.src = list[startIndex];
+  }
+  var img = document.getElementById('profile-photo');
+  var btn = document.getElementById('refresh-photo');
+  if (!img) return;
+  loadPhoto(shuffle(photos.slice()), 0, img, null);
+  if (btn) {
+    var busy = false;
+    btn.addEventListener('click', function() {
+      if (busy) return;
+      busy = true;
+      btn.style.transition = 'transform 0.4s ease';
+      btn.style.transform = 'rotate(360deg)';
+      setTimeout(function() { btn.style.transform = ''; btn.style.transition = ''; }, 400);
+      var others = photos.filter(function(p) { return p !== currentSrc; });
+      if (others.length === 0) others = photos.slice();
+      loadPhoto(shuffle(others), 0, img, function() { busy = false; });
+    });
+  }
+})();
+</script>

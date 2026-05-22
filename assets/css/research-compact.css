@@ -1,0 +1,92 @@
+/* ── Research page compact styles ── */
+
+.content h2 {
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+.content h1 {
+  margin-bottom: 0;
+}
+
+/* Compact unordered list */
+.compact-list {
+  padding-left: 16px;
+  margin: 6px 0 0;
+}
+.compact-list li {
+  margin: 3px 0;
+  line-height: 1.45;
+  font-size: 0.92rem;
+  color: #d1daf0;
+}
+
+/* Experience entries */
+.exp-entry {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.09);
+}
+.exp-entry:last-of-type {
+  border-bottom: none;
+}
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.exp-role {
+  font-weight: 600;
+  color: #e2e8f0;
+  font-size: 0.96rem;
+}
+.exp-date {
+  color: #a0aec0;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  font-style: italic;
+}
+.exp-org {
+  color: #a0aec0;
+  font-size: 0.85rem;
+  margin: 1px 0 4px;
+}
+
+/* Compact pub entries */
+.pub {
+  margin-bottom: 10px;
+  font-size: 0.91rem;
+  line-height: 1.5;
+  color: #d1daf0;
+}
+
+/* Conference list */
+.conf-list li {
+  padding: 2px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.conf-list li:last-child {
+  border-bottom: none;
+}
+
+/* Skills grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 20px;
+  margin-top: 6px;
+  font-size: 0.91rem;
+  color: #d1daf0;
+}
+.skill-label {
+  color: #ffffff;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+@media (max-width: 500px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .exp-header { flex-direction: column; gap: 2px; }
+}
