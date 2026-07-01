@@ -1,11 +1,43 @@
 :root {
   --maxw: 980px;
   --text: #f0f4ff;
+  --text-strong: #ffffff;
+  --text-secondary: #d1daf0;
   --muted: #a0aec0;
   --line: rgba(255,255,255,0.15);
+  --line-soft: rgba(255,255,255,0.09);
+  --line-softer: rgba(255,255,255,0.06);
   --link: #63b3ed;
+  --link-hover: #90cdf4;
+  --header-bg: rgba(8, 8, 20, 0.75);
+  --overlay: rgba(8, 8, 20, 0.82);
+  --btn-bg: rgba(255,255,255,0.08);
+  --btn-border: rgba(255,255,255,0.2);
+  --footer-muted: rgba(200,210,230,0.7);
+  --shadow: 0 2px 24px rgba(0,0,0,0.7);
+  --bg-body: #0a0a14;
   --bg: transparent;
 }
+
+:root[data-theme="light"] {
+  --text: #1a202c;
+  --text-strong: #0a0a14;
+  --text-secondary: #2d3748;
+  --muted: #5a6472;
+  --line: rgba(0,0,0,0.12);
+  --line-soft: rgba(0,0,0,0.08);
+  --line-softer: rgba(0,0,0,0.06);
+  --link: #2563eb;
+  --link-hover: #1d4ed8;
+  --header-bg: rgba(255,255,255,0.85);
+  --overlay: rgba(255,255,255,0.88);
+  --btn-bg: rgba(0,0,0,0.05);
+  --btn-border: rgba(0,0,0,0.15);
+  --footer-muted: rgba(30,34,44,0.65);
+  --shadow: 0 2px 24px rgba(0,0,0,0.15);
+  --bg-body: #f4f6fb;
+}
+
 * { box-sizing: border-box; }
 html {
   scroll-behavior: smooth;
@@ -15,21 +47,23 @@ body {
   color: var(--text);
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.65;
-  background-color: #0a0a14;
+  background-color: var(--bg-body);
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Brain_MRI.jpg/1280px-Brain_MRI.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: rgba(8, 8, 20, 0.82);
+  background: var(--overlay);
   z-index: 0;
   pointer-events: none;
+  transition: background 0.2s ease;
 }
 .wrap {
   max-width: var(--maxw);
@@ -39,8 +73,8 @@ body::before {
   z-index: 1;
 }
 .site-header {
-  border-bottom: 1px solid rgba(255,255,255,0.15);
-  background: rgba(8, 8, 20, 0.75);
+  border-bottom: 1px solid var(--line);
+  background: var(--header-bg);
   backdrop-filter: blur(6px);
   position: sticky;
   top: 0;
@@ -53,9 +87,15 @@ body::before {
   padding: 18px 20px;
   gap: 16px;
 }
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
 .brand a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-strong);
   font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -72,7 +112,22 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
-  color: #90cdf4;
+  color: var(--link-hover);
+}
+.theme-toggle {
+  background: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+.theme-toggle:hover {
+  border-color: var(--link);
+  transform: scale(1.05);
 }
 .content {
   padding-top: 34px;
@@ -110,13 +165,13 @@ nav a:hover {
   height: auto;
   border-radius: 8px;
   display: block;
-  box-shadow: 0 2px 24px rgba(0,0,0,0.7);
+  box-shadow: var(--shadow);
 }
 /* Refresh button */
 .refresh-btn {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.2);
-  color: #90cdf4;
+  background: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  color: var(--link-hover);
   border-radius: 6px;
   padding: 5px 14px;
   font-size: 1rem;
@@ -125,35 +180,35 @@ nav a:hover {
   letter-spacing: 0.03em;
 }
 .refresh-btn:hover {
-  background: rgba(99,179,237,0.18);
-  color: #ffffff;
-  border-color: #63b3ed;
+  background: var(--btn-bg);
+  color: var(--text-strong);
+  border-color: var(--link);
 }
 h1 {
   margin: 0 0 8px;
   font-size: 2.15rem;
   line-height: 1.15;
-  color: #ffffff;
+  color: var(--text-strong);
 }
 h2 {
   margin-top: 0;
   margin-bottom: 12px;
   font-size: 1.35rem;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
+  border-bottom: 1px solid var(--line);
   padding-bottom: 6px;
-  color: #ffffff;
+  color: var(--text-strong);
 }
 h3 {
   margin-top: 20px;
   margin-bottom: 6px;
   font-size: 1.05rem;
-  color: #e2e8f0;
+  color: var(--text);
 }
-p { margin: 10px 0; color: #d1daf0; }
-ul { padding-left: 20px; color: #d1daf0; }
+p { margin: 10px 0; color: var(--text-secondary); }
+ul { padding-left: 20px; color: var(--text-secondary); }
 li { margin: 6px 0; }
-strong { color: #ffffff; }
-em { color: #d1daf0; }
+strong { color: var(--text-strong); }
+em { color: var(--text-secondary); }
 .muted { color: var(--muted); }
 .links {
   margin-top: 14px;
@@ -166,18 +221,18 @@ em { color: #d1daf0; }
 }
 .links a:hover {
   text-decoration: underline;
-  color: #90cdf4;
+  color: var(--link-hover);
 }
 a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; color: #90cdf4; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
 .news-list {
   list-style: none;
   padding-left: 0;
 }
 .news-list li {
   padding: 8px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.12);
-  color: #d1daf0;
+  border-bottom: 1px solid var(--line-soft);
+  color: var(--text-secondary);
 }
 .two-col {
   display: grid;
@@ -186,11 +241,11 @@ a:hover { text-decoration: underline; color: #90cdf4; }
 }
 .pub {
   margin-bottom: 14px;
-  color: #d1daf0;
+  color: var(--text-secondary);
 }
 .site-footer {
-  border-top: 1px solid rgba(255,255,255,0.12);
-  background: rgba(8, 8, 20, 0.75);
+  border-top: 1px solid var(--line-softer);
+  background: var(--header-bg);
   backdrop-filter: blur(6px);
   padding: 18px 0;
   position: relative;
@@ -200,7 +255,7 @@ a:hover { text-decoration: underline; color: #90cdf4; }
   margin: 0;
   text-align: center;
   font-size: 0.88rem;
-  color: rgba(200, 210, 230, 0.7);
+  color: var(--footer-muted);
 }
 .site-footer a {
   color: var(--link);
@@ -208,7 +263,7 @@ a:hover { text-decoration: underline; color: #90cdf4; }
 }
 .site-footer a:hover {
   text-decoration: underline;
-  color: #90cdf4;
+  color: var(--link-hover);
 }
 @media (max-width: 500px) {
   .hero {
@@ -226,7 +281,11 @@ a:hover { text-decoration: underline; color: #90cdf4; }
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  nav { margin-top: 10px; }
+  .nav-right {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+  }
   .photo-col {
     width: 100%;
     min-width: 0;

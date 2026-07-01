@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <script>
+    (function() {
+      try {
+        if (localStorage.getItem('theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
   {% seo %}
+  {% feed_meta %}
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   {% if page.permalink == '/research/' %}
   <link rel="stylesheet" href="{{ '/assets/css/research-compact.css' | relative_url }}">
@@ -17,12 +27,15 @@
       <div class="brand">
         <a href="{{ '/' | relative_url }}">Shounak Nandi</a>
       </div>
-      <nav>
-        <a href="{{ '/' | relative_url }}">About</a>
-        <a href="{{ '/research' | relative_url }}">Research</a>
-        <a href="{{ '/news' | relative_url }}">News</a>
-        <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
-      </nav>
+      <div class="nav-right">
+        <nav>
+          <a href="{{ '/' | relative_url }}">About</a>
+          <a href="{{ '/research' | relative_url }}">Research</a>
+          <a href="{{ '/news' | relative_url }}">News</a>
+          <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light mode">&#127769;</button>
+      </div>
     </div>
   </header>
   <main class="wrap content">
@@ -33,5 +46,29 @@
       <p>Inspired by <a href="https://zstoebs.github.io/" target="_blank" rel="noopener">Zachary Stoebner</a>.</p>
     </div>
   </footer>
+  <script>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      var root = document.documentElement;
+      function sync() {
+        var isLight = root.getAttribute('data-theme') === 'light';
+        btn.innerHTML = isLight ? '&#9728;&#65039;' : '&#127769;';
+        btn.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+      }
+      sync();
+      btn.addEventListener('click', function() {
+        var isLight = root.getAttribute('data-theme') === 'light';
+        if (isLight) {
+          root.removeAttribute('data-theme');
+          try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+        } else {
+          root.setAttribute('data-theme', 'light');
+          try { localStorage.setItem('theme', 'light'); } catch (e) {}
+        }
+        sync();
+      });
+    })();
+  </script>
 </body>
 </html>
