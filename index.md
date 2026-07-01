@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Shounak Nandi
+description: "Shounak Nandi is a neuroimaging researcher working on diffusion MRI, low-field MRI, and reproducible multimodal imaging pipelines."
 ---
 
 <div class="hero">
