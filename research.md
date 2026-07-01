@@ -64,33 +64,35 @@ description: "Research interests, experience, publications, and technical skills
 </div>
 
 <h2>Publications</h2>
-<div class="pub">
-  Nguyen HQ, Hadidchi R, Eligulashvili A, <strong>Nandi S</strong>, et al.
-  <em>COVID-19 and Radiological Progression of Multiple Sclerosis.</em>
-  Diagnostics, 2026;16(10):1513.
-  <a href="https://doi.org/10.3390/diagnostics16101513">doi:10.3390/diagnostics16101513</a>
-</div>
-<div class="pub">
-  <strong>Nandi S</strong>, Poojar P, Taufique S, et al.
-  <em>Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.</em>
-  NMR in Biomedicine, 2026.
-  <a href="https://doi.org/10.1002/nbm.70193">doi:10.1002/nbm.70193</a>
-</div>
-<div class="pub">
-  McKenna FF, <strong>Nandi S</strong>, et al. (Co-first)
-  <em>Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.</em>
-  British Journal of Haematology, 2025.
-  <a href="https://doi.org/10.1111/bjh.70300">doi:10.1111/bjh.70300</a>
-</div>
+<p class="pub-legend">* Equal contribution</p>
 
-<h2>Conference Presentations</h2>
-<ul class="compact-list conf-list">
-  <li><strong>ISMRM 2026</strong>, Cape Town &mdash; LASSO-informed texture analysis <em>(Poster)</em></li>
-  <li><strong>SOBP 2026</strong>, New York City &mdash; Bingham-NODDI, pediatric cancer survivors <em>(Poster)</em></li>
-  <li><strong>ISMRM 2024</strong>, Singapore &mdash; Texture biomarkers in cocaine use disorder <em>(Poster)</em></li>
-  <li><strong>ISMRM 2024</strong> &mdash; MRI4ALL Hackathon: open-source ultra-low-field MRI <em>(Oral)</em></li>
-  <li><strong>ISMRM Workshop on Accessible MRI 2024</strong> &mdash; Low-field translation of texture biomarkers <em>(Poster)</em></li>
-</ul>
+<div class="pub">
+  <span class="pub-num">1</span>
+  <div class="pub-body">
+    Nguyen HQ, Hadidchi R, Eligulashvili A, <strong>Nandi S</strong>, et al.
+    <em>COVID-19 and Radiological Progression of Multiple Sclerosis.</em>
+    Diagnostics, 2026;16(10):1513.
+    <a href="https://doi.org/10.3390/diagnostics16101513">doi:10.3390/diagnostics16101513</a>
+  </div>
+</div>
+<div class="pub">
+  <span class="pub-num">2</span>
+  <div class="pub-body">
+    <strong>Nandi S</strong>, Poojar P, Taufique S, et al.
+    <em>Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.</em>
+    NMR in Biomedicine, 2026.
+    <a href="https://doi.org/10.1002/nbm.70193">doi:10.1002/nbm.70193</a>
+  </div>
+</div>
+<div class="pub">
+  <span class="pub-num">3</span>
+  <div class="pub-body">
+    McKenna FF*, <strong>Nandi S</strong>*, et al.
+    <em>Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.</em>
+    British Journal of Haematology, 2025.
+    <a href="https://doi.org/10.1111/bjh.70300">doi:10.1111/bjh.70300</a>
+  </div>
+</div>
 
 <h2>Technical Skills</h2>
 <div class="skills-grid">
