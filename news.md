@@ -2,11 +2,14 @@
 layout: default
 title: News
 permalink: /news/
+description: "Latest news and updates from Shounak Nandi: publications, conference presentations, and career milestones in neuroimaging research."
 ---
 
 # News
 
 <ul class="news-list">
+  <li><strong>May 2026:</strong> Presented a digital poster on "LASSO-informed texture analysis" at the ISMRM 2026 Annual Meeting in Cape Town, South Africa.</li>
+  <li><strong>May 2026:</strong> Co-authored "COVID-19 and Radiological Progression of Multiple Sclerosis," published in Diagnostics.</li>
   <li><strong>Apr 2026:</strong> Presented my poster on "Cerebellar–Cortical White-Matter Disorganization is Associated With Cognitive Impairment in Pediatric Cancer Survivors: A NODDI-Bingham Study" in the SOBP Annual meeting 2026 in New York City.</li>
   <li><strong>Mar 2026:</strong> SOBP abstract accepted as traditional poster.</li>
   <li><strong>Feb 2026:</strong> ISMRM abstracts accepted as digital poster.</li>

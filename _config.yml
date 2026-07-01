@@ -2,12 +2,14 @@ title: Shounak Nandi
 description: MRI | Neuroimaging | Reconstruction | Diffusion modeling
 url: "https://nandishounak.github.io"
 author: Shounak Nandi
+image: /assets/img/profile2.jpeg
 
 favicon: /assets/img/favicon.png
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
 social:
   name: Shounak Nandi
@@ -16,3 +18,4 @@ social:
     - https://www.linkedin.com/in/shounak-nandi-b2b40b78/
     - https://scholar.google.com/citations?user=nqoO0iwAAAAJ&hl=en
     - https://www.researchgate.net/profile/Shounak-Nandi?ev=hdr_xprf
+    - https://orcid.org/0000-0003-3588-3838

@@ -2,6 +2,7 @@
 layout: default
 title: Research
 permalink: /research/
+description: "Research interests, experience, publications, and technical skills of Shounak Nandi — diffusion MRI, low-field MRI, and reproducible neuroimaging pipelines."
 ---
 
 <h1>Research</h1>
@@ -63,6 +64,12 @@ permalink: /research/
 </div>
 
 <h2>Publications</h2>
+<div class="pub">
+  Nguyen HQ, Hadidchi R, Eligulashvili A, <strong>Nandi S</strong>, et al.
+  <em>COVID-19 and Radiological Progression of Multiple Sclerosis.</em>
+  Diagnostics, 2026;16(10):1513.
+  <a href="https://doi.org/10.3390/diagnostics16101513">doi:10.3390/diagnostics16101513</a>
+</div>
 <div class="pub">
   <strong>Nandi S</strong>, Poojar P, Taufique S, et al.
   <em>Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.</em>
