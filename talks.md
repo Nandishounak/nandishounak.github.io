@@ -8,16 +8,11 @@ description: "Conference talks and poster presentations by Shounak Nandi in diff
 <h1>Talks</h1>
 <p class="muted" style="margin-top:4px;margin-bottom:24px;">Conference presentations and posters.</p>
 
-<h2>Oral Presentations</h2>
-<ul class="compact-list conf-list">
-  <li><strong>ISMRM 2024</strong> &mdash; MRI4ALL Hackathon: open-source ultra-low-field MRI</li>
-  <li><strong>i2i workshop 2023</strong> &mdash; Texture biomarkers in cocaine use disorders</li>
-</ul>
-
-<h2>Poster Presentations</h2>
-<ul class="compact-list conf-list">
-  <li><strong>ISMRM 2026</strong>, Cape Town &mdash; LASSO-informed texture analysis</li>
-  <li><strong>SOBP 2026</strong>, New York City &mdash; Bingham-NODDI, pediatric cancer survivors</li>
-  <li><strong>ISMRM 2024</strong>, Singapore &mdash; Texture biomarkers in cocaine use disorder</li>
-  <li><strong>ISMRM Workshop on Accessible MRI 2024</strong> &mdash; Low-field translation of texture biomarkers</li>
+<ul class="compact-list conf-list talk-list">
+  <li><span class="talk-tag tag-digital">Digital Poster</span><strong>ISMRM 2026</strong>, Cape Town &mdash; LASSO-informed texture analysis</li>
+  <li><span class="talk-tag tag-poster">Poster</span><strong>SOBP 2026</strong>, New York City &mdash; Bingham-NODDI, pediatric cancer survivors</li>
+  <li><span class="talk-tag tag-poster">Poster</span><strong>ISMRM 2024</strong>, Singapore &mdash; Texture biomarkers in cocaine use disorder</li>
+  <li><span class="talk-tag tag-oral">Oral</span><strong>ISMRM 2024</strong> &mdash; MRI4ALL Hackathon: open-source ultra-low-field MRI</li>
+  <li><span class="talk-tag tag-poster">Poster</span><strong>ISMRM Workshop on Accessible MRI 2024</strong> &mdash; Low-field translation of texture biomarkers</li>
+  <li><span class="talk-tag tag-pitch">Power Pitch</span><strong>i2i workshop 2023</strong> &mdash; Texture biomarkers in cocaine use disorders</li>
 </ul>
