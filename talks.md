@@ -11,6 +11,7 @@ description: "Conference talks and poster presentations by Shounak Nandi in diff
 <h2>Oral Presentations</h2>
 <ul class="compact-list conf-list">
   <li><strong>ISMRM 2024</strong> &mdash; MRI4ALL Hackathon: open-source ultra-low-field MRI</li>
+  <li><strong>i2i workshop 2023</strong> &mdash; Texture biomarkers in cocaine use disorders</li>
 </ul>
 
 <h2>Poster Presentations</h2>
