@@ -1,171 +1,111 @@
-/* ── Research page compact styles ── */
+---
+layout: default
+title: Research
+permalink: /research/
+description: "Research interests, experience, publications, and technical skills of Shounak Nandi — diffusion MRI, low-field MRI, and reproducible neuroimaging pipelines."
+---
 
-.content h2 {
-  margin-top: 28px;
-  margin-bottom: 8px;
-}
+<h1>Research</h1>
+<p class="muted" style="margin-top:4px;margin-bottom:24px;">Neuroimaging methods, MRI biomarker development, and scalable analysis pipelines.</p>
 
-.content h1 {
-  margin-bottom: 0;
-}
+<h2>Current Topics</h2>
+<ul class="compact-list">
+  <li><strong>Diffusion MRI microstructure modeling</strong> — End-to-end pipelines including NODDI-Bingham and large-scale GPU/HPC workflows.</li>
+  <li><strong>Low-field MRI biomarkers</strong> — Texture-based and volumetric markers evaluating low-field MRI sensitivity in neurologic and substance use disorder applications.</li>
+  <li><strong>Multimodal MRI pipelines</strong> — Reproducible preprocessing and QC workflows for dMRI, fMRI, ASL, and structural MRI using standardized toolchains.</li>
+</ul>
 
-/* Compact unordered list */
-.compact-list {
-  padding-left: 16px;
-  margin: 6px 0 0;
-}
-.compact-list li {
-  margin: 3px 0;
-  line-height: 1.45;
-  font-size: 0.92rem;
-  color: var(--text-secondary);
-}
+<h2>Experience</h2>
 
-/* Experience entries */
-.exp-entry {
-  margin-bottom: 14px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--line-soft);
-}
-.exp-entry:last-of-type {
-  border-bottom: none;
-}
-.exp-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-.exp-role {
-  font-weight: 600;
-  color: var(--text);
-  font-size: 0.96rem;
-}
-.exp-date {
-  color: var(--muted);
-  font-size: 0.82rem;
-  white-space: nowrap;
-  font-style: italic;
-}
-.exp-org {
-  color: var(--muted);
-  font-size: 0.85rem;
-  margin: 1px 0 4px;
-}
+<div class="exp-entry">
+  <div class="exp-header">
+    <span class="exp-role">Study Coordinator, Radiology</span>
+    <span class="exp-date">2024 &ndash; Present</span>
+  </div>
+  <div class="exp-org">Albert Einstein College of Medicine, New York</div>
+  <ul class="compact-list">
+    <li>Pre/post-processing of dMRI, fMRI, ASL, and structural MRI; HPC-based pipeline automation</li>
+    <li>Toolchains: FSL, FreeSurfer, AFNI, ANTs, SPM, DIPY</li>
+    <li>Data curation, QC, regulatory documentation, and student mentoring</li>
+  </ul>
+</div>
 
-/* Compact pub entries */
-.pub-legend {
-  font-size: 0.82rem;
-  color: var(--muted);
-  margin: -4px 0 14px;
-}
-.pub {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  margin-bottom: 12px;
-  font-size: 0.91rem;
-  line-height: 1.5;
-  color: var(--text-secondary);
-}
-.pub-num {
-  flex: 0 0 auto;
-  width: 22px;
-  height: 22px;
-  margin-top: 2px;
-  border-radius: 50%;
-  background: var(--btn-bg);
-  border: 1px solid var(--btn-border);
-  color: var(--text);
-  font-size: 0.76rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pub-body {
-  flex: 1;
-  min-width: 0;
-}
+<div class="exp-entry">
+  <div class="exp-header">
+    <span class="exp-role">Visiting Scholar, Accessible MR Laboratory</span>
+    <span class="exp-date">2024</span>
+  </div>
+  <div class="exp-org">Johns Hopkins University School of Medicine</div>
+  <ul class="compact-list">
+    <li>Low-field MRI optimization; volumetric and texture-based biomarker development</li>
+  </ul>
+</div>
 
-/* Conference list */
-.conf-list li {
-  padding: 2px 0;
-  border-bottom: 1px solid var(--line-softer);
-}
-.conf-list li:last-child {
-  border-bottom: none;
-}
+<div class="exp-entry">
+  <div class="exp-header">
+    <span class="exp-role">Associate Researcher I, Accessible MR Laboratory</span>
+    <span class="exp-date">2023</span>
+  </div>
+  <div class="exp-org">Icahn School of Medicine at Mount Sinai</div>
+  <ul class="compact-list">
+    <li>MRI preprocessing and segmentation (FSL, FreeSurfer, ANTs); spectroscopy localization support</li>
+  </ul>
+</div>
 
-/* Talk type tags */
-.talk-list li {
-  padding: 7px 0;
-  line-height: 1.6;
-}
-.talk-tag {
-  display: inline-block;
-  padding: 3px 10px;
-  margin-right: 10px;
-  border-radius: 5px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-.tag-oral { background: #2b6cb0; }
-.tag-poster { background: #4a5568; }
-.tag-digital { background: #6b46c1; }
-.tag-pitch { background: #b7791f; }
+<div class="exp-entry">
+  <div class="exp-header">
+    <span class="exp-role">Student Research Assistant, Interdisciplinary Research Lab</span>
+    <span class="exp-date">2022</span>
+  </div>
+  <div class="exp-org">Technical University of Munich, Germany</div>
+  <ul class="compact-list">
+    <li>PET-MR DICOM sorting automation, image registration, optical tracking calibration (Python, C++)</li>
+  </ul>
+</div>
 
-/* Skills grid */
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5px 20px;
-  margin-top: 6px;
-  font-size: 0.91rem;
-  color: var(--text-secondary);
-}
-.skill-label {
-  color: var(--text-strong);
-  font-weight: 600;
-  margin-right: 5px;
-}
+<h2>Publications</h2>
+<p class="pub-legend">* Equal contribution</p>
 
-/* Stats page */
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 16px;
-  margin: 20px 0 10px;
-}
-.stat-item {
-  text-align: center;
-  padding: 18px 10px;
-  border: 1px solid var(--line-soft);
-  border-radius: 10px;
-  background: var(--btn-bg);
-}
-.stat-num {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--text-strong);
-  line-height: 1;
-  margin-bottom: 6px;
-}
-.stat-label {
-  display: block;
-  font-size: 0.85rem;
-  color: var(--muted);
-}
+<div class="pub">
+  <span class="pub-num">1</span>
+  <div class="pub-body">
+    Nguyen HQ, Hadidchi R, Eligulashvili A, <strong>Nandi S</strong>, et al.
+    <em>COVID-19 and Radiological Progression of Multiple Sclerosis.</em>
+    Diagnostics, 2026;16(10):1513.
+    <a href="https://doi.org/10.3390/diagnostics16101513">doi:10.3390/diagnostics16101513</a>
+  </div>
+</div>
+<div class="pub">
+  <span class="pub-num">2</span>
+  <div class="pub-body">
+    <strong>Nandi S</strong>, Poojar P, Taufique S, et al.
+    <em>Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.</em>
+    NMR in Biomedicine, 2026.
+    <a href="https://doi.org/10.1002/nbm.70193">doi:10.1002/nbm.70193</a>
+  </div>
+</div>
+<div class="pub">
+  <span class="pub-num">3</span>
+  <div class="pub-body">
+    McKenna FF*, <strong>Nandi S</strong>*, et al.
+    <em>Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.</em>
+    British Journal of Haematology, 2025.
+    <a href="https://doi.org/10.1111/bjh.70300">doi:10.1111/bjh.70300</a>
+  </div>
+</div>
 
-@media (max-width: 500px) {
-  .skills-grid { grid-template-columns: 1fr; }
-  .exp-header { flex-direction: column; gap: 2px; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
-}
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+  <div><span class="skill-label">Programming</span> Python, C++, MATLAB, R, SQL, Bash, LaTeX</div>
+  <div><span class="skill-label">Neuroimaging</span> FSL, FreeSurfer, AFNI, ANTs, SPM, DIPY</div>
+  <div><span class="skill-label">Tools</span> Git, Conda, VS Code, PyCharm, HPC, Slurm</div>
+  <div><span class="skill-label">Systems</span> Linux, macOS, Windows</div>
+</div>
+
+<h2>Awards</h2>
+<ul class="compact-list">
+  <li>ISMRM Trainee Stipend, 2024</li>
+  <li>TUM Conference Travel Award (&euro;1,000)</li>
+  <li>JIS College Blue 2017 &mdash; Best Student Award, JIS College of Engineering</li>
+  <li>JIS Samman &mdash; Departmental Topper, 2015&ndash;2016</li>
+</ul>

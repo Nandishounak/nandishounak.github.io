@@ -55,11 +55,38 @@
 }
 
 /* Compact pub entries */
+.pub-legend {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: -4px 0 14px;
+}
 .pub {
-  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
   font-size: 0.91rem;
   line-height: 1.5;
   color: var(--text-secondary);
+}
+.pub-num {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  margin-top: 2px;
+  border-radius: 50%;
+  background: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  color: var(--text);
+  font-size: 0.76rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pub-body {
+  flex: 1;
+  min-width: 0;
 }
 
 /* Conference list */
@@ -70,6 +97,29 @@
 .conf-list li:last-child {
   border-bottom: none;
 }
+
+/* Talk type tags */
+.talk-list li {
+  padding: 7px 0;
+  line-height: 1.6;
+}
+.talk-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.tag-oral { background: #2b6cb0; }
+.tag-poster { background: #4a5568; }
+.tag-digital { background: #6b46c1; }
+.tag-pitch { background: #b7791f; }
 
 /* Skills grid */
 .skills-grid {
@@ -86,7 +136,36 @@
   margin-right: 5px;
 }
 
+/* Stats page */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 16px;
+  margin: 20px 0 10px;
+}
+.stat-item {
+  text-align: center;
+  padding: 18px 10px;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  background: var(--btn-bg);
+}
+.stat-num {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-strong);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 @media (max-width: 500px) {
   .skills-grid { grid-template-columns: 1fr; }
   .exp-header { flex-direction: column; gap: 2px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
 }
