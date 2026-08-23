@@ -27,7 +27,7 @@ description: "Research interests, experience, publications, and technical skills
   <div class="exp-org">Albert Einstein College of Medicine, New York</div>
   <ul class="compact-list">
     <li>Pre/post-processing of dMRI, fMRI, ASL, and structural MRI; HPC-based pipeline automation</li>
-    <li>Toolchains: FSL, FreeSurfer, AFNI, ANTs, SPM, DIPY</li>
+    <li>Toolchains: FSL, FreeSurfer, AFNI, ANTs, SPM, DIPY, Python, Pytorch, MONAI tools</li>
     <li>Data curation, QC, regulatory documentation, and student mentoring</li>
   </ul>
 </div>
