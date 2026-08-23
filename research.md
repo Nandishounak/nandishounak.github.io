@@ -10,6 +10,8 @@ description: "Research interests, experience, publications, and technical skills
 
 <h2>Current Topics</h2>
 <ul class="compact-list">
+  <li><strong>Chemobrain Brain-age analysis</strong> — Apply machine learning algorithm for predicting Brain age for chemobrain cohort.</li>
+  <li><strong>fMRI task design</strong> — Design and implement fMRI task followed by analysis for ASD cohort.</li>
   <li><strong>Diffusion MRI microstructure modeling</strong> — End-to-end pipelines including NODDI-Bingham and large-scale GPU/HPC workflows.</li>
   <li><strong>Low-field MRI biomarkers</strong> — Texture-based and volumetric markers evaluating low-field MRI sensitivity in neurologic and substance use disorder applications.</li>
   <li><strong>Multimodal MRI pipelines</strong> — Reproducible preprocessing and QC workflows for dMRI, fMRI, ASL, and structural MRI using standardized toolchains.</li>
