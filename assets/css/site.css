@@ -150,8 +150,15 @@ nav a:hover {
   background: none;
   padding: 0;
   box-shadow: none;
+  animation: fade-in-up 0.6s ease both;
 }
-/* Photo column: stacks image + refresh button */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero { animation: none; }
+}
 .photo-col {
   display: flex;
   flex-direction: column;
@@ -166,23 +173,6 @@ nav a:hover {
   border-radius: 8px;
   display: block;
   box-shadow: var(--shadow);
-}
-/* Refresh button */
-.refresh-btn {
-  background: var(--btn-bg);
-  border: 1px solid var(--btn-border);
-  color: var(--link-hover);
-  border-radius: 6px;
-  padding: 5px 14px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s, color 0.2s;
-  letter-spacing: 0.03em;
-}
-.refresh-btn:hover {
-  background: var(--btn-bg);
-  color: var(--text-strong);
-  border-color: var(--link);
 }
 h1 {
   margin: 0 0 8px;
@@ -242,6 +232,21 @@ a:hover { text-decoration: underline; color: var(--link-hover); }
 .pub {
   margin-bottom: 14px;
   color: var(--text-secondary);
+}
+.edu-entry {
+  margin-bottom: 14px;
+}
+.edu-entry:last-child {
+  margin-bottom: 0;
+}
+.edu-degree {
+  font-weight: 600;
+  color: var(--text);
+}
+.edu-org {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 2px;
 }
 .site-footer {
   border-top: 1px solid var(--line-softer);

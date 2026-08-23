@@ -8,7 +8,6 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
   <div class="photo-col">
     <img id="profile-photo" class="profile-photo" src="" alt="Shounak Nandi"
     style="display:none;">
-    <button id="refresh-photo" class="refresh-btn" title="Show another photo">&#x21bb;</button>
   </div>
 
   <div>
@@ -55,9 +54,15 @@ I am currently a **Study Coordinator** in Radiology at Albert Einstein College o
 
 ## Education
 
-**M.Sc., Biomedical Engineering & Medical Physics** Technical University of Munich, Germany (2024)
+<div class="edu-entry">
+  <div class="edu-degree">M.Sc., Biomedical Engineering &amp; Medical Physics</div>
+  <div class="edu-org">Technical University of Munich, Germany &middot; 2024</div>
+</div>
 
-**B.Tech., Biomedical Engineering** Maulana Abul Kalam Azad University of Technology, India (2017)
+<div class="edu-entry">
+  <div class="edu-degree">B.Tech., Biomedical Engineering</div>
+  <div class="edu-org">Maulana Abul Kalam Azad University of Technology, India &middot; 2017</div>
+</div>
 
 ## Selected Updates
 
@@ -86,35 +91,18 @@ Beyond research, I like to spend time in [music](https://www.youtube.com/@Shouna
     }
     return arr;
   }
-  var currentSrc = null;
-  function loadPhoto(list, startIndex, imgEl, onDone) {
-    if (startIndex >= list.length) { if (onDone) onDone(false); return; }
+  function loadPhoto(list, startIndex, imgEl) {
+    if (startIndex >= list.length) return;
     var tester = new Image();
     tester.onload = function() {
       imgEl.src = this.src;
       imgEl.style.display = 'block';
-      currentSrc = list[startIndex];
-      if (onDone) onDone(true);
     };
-    tester.onerror = function() { loadPhoto(list, startIndex + 1, imgEl, onDone); };
+    tester.onerror = function() { loadPhoto(list, startIndex + 1, imgEl); };
     tester.src = list[startIndex];
   }
   var img = document.getElementById('profile-photo');
-  var btn = document.getElementById('refresh-photo');
   if (!img) return;
-  loadPhoto(shuffle(photos.slice()), 0, img, null);
-  if (btn) {
-    var busy = false;
-    btn.addEventListener('click', function() {
-      if (busy) return;
-      busy = true;
-      btn.style.transition = 'transform 0.4s ease';
-      btn.style.transform = 'rotate(360deg)';
-      setTimeout(function() { btn.style.transform = ''; btn.style.transition = ''; }, 400);
-      var others = photos.filter(function(p) { return p !== currentSrc; });
-      if (others.length === 0) others = photos.slice();
-      loadPhoto(shuffle(others), 0, img, function() { busy = false; });
-    });
-  }
+  loadPhoto(shuffle(photos.slice()), 0, img);
 })();
 </script>
