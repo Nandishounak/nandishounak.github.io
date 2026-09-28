@@ -150,6 +150,17 @@
   border-radius: 10px;
   background: var(--btn-bg);
 }
+.stat-item > summary {
+  cursor: pointer;
+  list-style: none;
+  outline: none;
+}
+.stat-item > summary::-webkit-details-marker {
+  display: none;
+}
+.stat-item > summary::marker {
+  content: "";
+}
 .stat-num {
   display: block;
   font-size: 2rem;
@@ -162,6 +173,41 @@
   display: block;
   font-size: 0.85rem;
   color: var(--muted);
+}
+.stat-chevron {
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 0.7rem;
+  transition: transform 0.2s ease;
+}
+.stat-item[open] .stat-chevron {
+  transform: rotate(180deg);
+}
+.stat-detail {
+  text-align: left;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-soft);
+  animation: fade-in-up 0.2s ease both;
+}
+.stat-detail-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 10px;
+}
+.stat-detail-list li {
+  padding: 5px 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--line-softer);
+}
+.stat-detail-list li:last-child {
+  border-bottom: none;
+}
+.stat-more {
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 @media (max-width: 500px) {

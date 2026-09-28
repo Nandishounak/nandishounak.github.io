@@ -17,7 +17,7 @@ description: "Research interests, experience, publications, and technical skills
   <li><strong>Multimodal MRI pipelines</strong> — Reproducible preprocessing and QC workflows for dMRI, fMRI, ASL, and structural MRI using standardized toolchains.</li>
 </ul>
 
-<h2>Experience</h2>
+<h2 id="experience">Experience</h2>
 
 <div class="exp-entry">
   <div class="exp-header">
@@ -65,7 +65,7 @@ description: "Research interests, experience, publications, and technical skills
   </ul>
 </div>
 
-<h2>Publications</h2>
+<h2 id="publications">Publications</h2>
 <p class="pub-legend">* Equal contribution</p>
 
 <div class="pub">
@@ -104,7 +104,7 @@ description: "Research interests, experience, publications, and technical skills
   <div><span class="skill-label">Systems</span> Linux, macOS, Windows</div>
 </div>
 
-<h2>Awards</h2>
+<h2 id="awards">Awards</h2>
 <ul class="compact-list">
   <li>DIY MRI Workshop Signal Scout Award, 2026</li>
   <li>DIY MRI Workshop Travel Award, 2026</li>
