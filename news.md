@@ -9,7 +9,7 @@ description: "Latest news and updates from Shounak Nandi: publications, conferen
 
 <ul class="news-list">
   
-  <li><strong>Sep 2026:</strong> Participated in Delta DIY MRI workshop II organized by Johns Hopkins Medicine. Won a travel award of $400 and best team member award (Signal Scout- frommAcquisition/Console team)</li>
+  <li><strong>Sep 2026:</strong> Participated in Delta DIY MRI workshop II organized by Johns Hopkins Medicine. Won a travel award of $400 and best team member award (Signal Scout &mdash; Acquisition/Console team)</li>
   <li><strong>May 2026:</strong> Presented a digital poster on "LASSO-informed texture analysis" at the ISMRM 2026 Annual Meeting in Cape Town, South Africa.</li>
   <li><strong>May 2026:</strong> Co-authored "COVID-19 and Radiological Progression of Multiple Sclerosis," published in Diagnostics.</li>
   <li><strong>Apr 2026:</strong> Presented my poster on "Cerebellar–Cortical White-Matter Disorganization is Associated With Cognitive Impairment in Pediatric Cancer Survivors: A NODDI-Bingham Study" in the SOBP Annual meeting 2026 in New York City.</li>

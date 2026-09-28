@@ -6,8 +6,7 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
 
 <div class="hero">
   <div class="photo-col">
-    <img id="profile-photo" class="profile-photo" src="" alt="Shounak Nandi"
-    style="display:none;">
+    <img id="profile-photo" class="profile-photo" src="{{ '/assets/img/profile5.jpeg' | relative_url }}" alt="Shounak Nandi">
   </div>
 
   <div>
@@ -75,34 +74,3 @@ For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/resea
 ## More About Me
 
 Beyond research, I like to spend time in [music](https://www.youtube.com/@ShounakNandi), racquet sports, gym, and little bit to [photography](https://www.instagram.com/image_dot_jpeg/).
-
-<script>
-(function() {
-  var photos = [
-    "{{ '/assets/img/profile2.jpeg' | relative_url }}",
-    "{{ '/assets/img/profile5.jpeg' | relative_url }}",
-    "{{ '/assets/img/profile1.JPG' | relative_url }}",
-    "{{ '/assets/img/profile3.jpeg' | relative_url }}"
-  ];
-  function shuffle(arr) {
-    for (var i = arr.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
-    }
-    return arr;
-  }
-  function loadPhoto(list, startIndex, imgEl) {
-    if (startIndex >= list.length) return;
-    var tester = new Image();
-    tester.onload = function() {
-      imgEl.src = this.src;
-      imgEl.style.display = 'block';
-    };
-    tester.onerror = function() { loadPhoto(list, startIndex + 1, imgEl); };
-    tester.src = list[startIndex];
-  }
-  var img = document.getElementById('profile-photo');
-  if (!img) return;
-  loadPhoto(shuffle(photos.slice()), 0, img);
-})();
-</script>
