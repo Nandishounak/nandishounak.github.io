@@ -200,6 +200,10 @@ li { margin: 6px 0; }
 strong { color: var(--text-strong); }
 em { color: var(--text-secondary); }
 .muted { color: var(--muted); }
+.tag-line {
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
 .links {
   margin-top: 14px;
 }

@@ -38,18 +38,9 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
   </div>
 </div>
 
-## About
-
-I am currently a **Study Coordinator** in Radiology at Albert Einstein College of Medicine in New York. My research focuses on diffusion MRI, low-field MRI, multimodal imaging workflows, and reproducible computational pipelines. Previously, I worked with the Accessible MR Laboratory at Johns Hopkins University School of Medicine and Icahn School of Medicine at Mount Sinai. I hold an M.Sc. in Biomedical Engineering & Medical Physics from the Technical University of Munich.
-
 ## Research Interests
 
-- Diffusion MRI microstructure modeling
-- Low-field and accessible MRI
-- Multimodal neuroimaging preprocessing
-- Quantitative imaging biomarkers
-- Reproducible pipelines and HPC workflows
-- Statistical analysis and machine learning for imaging
+<p class="tag-line">Diffusion MRI microstructure modeling &nbsp;|&nbsp; Low-field and accessible MRI &nbsp;|&nbsp; Multimodal neuroimaging preprocessing &nbsp;|&nbsp; Quantitative imaging biomarkers &nbsp;|&nbsp; Reproducible pipelines and HPC workflows &nbsp;|&nbsp; Statistical analysis and machine learning for imaging</p>
 
 ## Education
 
