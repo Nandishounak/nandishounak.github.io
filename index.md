@@ -6,7 +6,7 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
 
 <div class="hero">
   <div class="photo-col">
-    <img id="profile-photo" class="profile-photo" src="{{ '/assets/img/profile5.jpeg' | relative_url }}" alt="Shounak Nandi">
+    <img id="profile-photo" class="profile-photo" src="{{ '/assets/img/profile6.jpeg' | relative_url }}" alt="Shounak Nandi">
   </div>
 
   <div>

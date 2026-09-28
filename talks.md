@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Talks
+title: Conference
 permalink: /talks/
 description: "Conference talks and poster presentations by Shounak Nandi in diffusion MRI, low-field MRI, and neuroimaging biomarkers."
 ---
 
-<h1>Talks</h1>
+<h1>Conference</h1>
 <p class="muted" style="margin-top:4px;margin-bottom:24px;">Conference presentations and posters.</p>
 
 <ul class="compact-list conf-list talk-list">
