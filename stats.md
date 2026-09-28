@@ -61,21 +61,6 @@ description: "A quick numeric snapshot of Shounak Nandi's research output: publi
 
   <details class="stat-item">
     <summary>
-      <span class="stat-num-row"><span class="stat-num">3</span><span class="stat-chevron">&#9662;</span></span>
-      <span class="stat-label">Cities visited</span>
-    </summary>
-    <div class="stat-detail">
-      <ul class="stat-detail-list">
-        <li>New York, USA</li>
-        <li>Baltimore, USA</li>
-        <li>Munich, Germany</li>
-      </ul>
-      <a class="stat-more" href="{{ '/research#experience' | relative_url }}">Full experience &rarr;</a>
-    </div>
-  </details>
-
-  <details class="stat-item">
-    <summary>
       <span class="stat-num-row"><span class="stat-num">6</span><span class="stat-chevron">&#9662;</span></span>
       <span class="stat-label">Awards</span>
     </summary>
