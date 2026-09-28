@@ -12,8 +12,8 @@ description: "A quick numeric snapshot of Shounak Nandi's research output: publi
 
   <details class="stat-item">
     <summary>
-      <span class="stat-num">3</span>
-      <span class="stat-label">Journal papers <span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-num-row"><span class="stat-num">3</span><span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-label">Journal papers</span>
     </summary>
     <div class="stat-detail">
       <ul class="stat-detail-list">
@@ -27,8 +27,8 @@ description: "A quick numeric snapshot of Shounak Nandi's research output: publi
 
   <details class="stat-item">
     <summary>
-      <span class="stat-num">6</span>
-      <span class="stat-label">Talks &amp; posters <span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-num-row"><span class="stat-num">6</span><span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-label">Talks &amp; posters</span>
     </summary>
     <div class="stat-detail">
       <ul class="stat-detail-list">
@@ -45,8 +45,8 @@ description: "A quick numeric snapshot of Shounak Nandi's research output: publi
 
   <details class="stat-item">
     <summary>
-      <span class="stat-num">4</span>
-      <span class="stat-label">Institutions <span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-num-row"><span class="stat-num">4</span><span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-label">Institutions</span>
     </summary>
     <div class="stat-detail">
       <ul class="stat-detail-list">
@@ -61,8 +61,8 @@ description: "A quick numeric snapshot of Shounak Nandi's research output: publi
 
   <details class="stat-item">
     <summary>
-      <span class="stat-num">3</span>
-      <span class="stat-label">Cities visited <span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-num-row"><span class="stat-num">3</span><span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-label">Cities visited</span>
     </summary>
     <div class="stat-detail">
       <ul class="stat-detail-list">
@@ -76,8 +76,8 @@ description: "A quick numeric snapshot of Shounak Nandi's research output: publi
 
   <details class="stat-item">
     <summary>
-      <span class="stat-num">6</span>
-      <span class="stat-label">Awards <span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-num-row"><span class="stat-num">6</span><span class="stat-chevron">&#9662;</span></span>
+      <span class="stat-label">Awards</span>
     </summary>
     <div class="stat-detail">
       <ul class="stat-detail-list">
