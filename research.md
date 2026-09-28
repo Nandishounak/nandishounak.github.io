@@ -106,6 +106,8 @@ description: "Research interests, experience, publications, and technical skills
 
 <h2>Awards</h2>
 <ul class="compact-list">
+  <li>DIY MRI Workshop Signal Scout Award, 2026</li>
+  <li>DIY MRI Workshop Travel Award, 2026</li>
   <li>ISMRM Trainee Stipend, 2024</li>
   <li>TUM Conference Travel Award (&euro;1,000)</li>
   <li>JIS College Blue 2017 &mdash; Best Student Award, JIS College of Engineering</li>
