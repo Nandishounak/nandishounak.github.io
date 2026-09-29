@@ -45,20 +45,28 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
 ## Education
 
 <div class="edu-entry">
-  <div class="edu-degree">M.Sc., Biomedical Engineering &amp; Medical Physics</div>
-  <div class="edu-org">Technical University of Munich, Germany &middot; 2024</div>
+  <div class="edu-header">
+    <span class="edu-degree">M.Sc., Biomedical Engineering &amp; Medical Physics</span>
+    <span class="edu-date">2024</span>
+  </div>
+  <div class="edu-org">Technical University of Munich, Germany</div>
 </div>
 
 <div class="edu-entry">
-  <div class="edu-degree">B.Tech., Biomedical Engineering</div>
-  <div class="edu-org">Maulana Abul Kalam Azad University of Technology, India &middot; 2017</div>
+  <div class="edu-header">
+    <span class="edu-degree">B.Tech., Biomedical Engineering</span>
+    <span class="edu-date">2017</span>
+  </div>
+  <div class="edu-org">Maulana Abul Kalam Azad University of Technology, India</div>
 </div>
 
 ## Selected Updates
 
-- **May 2026:** Presented a digital poster on LASSO-informed texture analysis at the ISMRM Annual Meeting, Cape Town.
-- **May 2026:** Co-authored "COVID-19 and Radiological Progression of Multiple Sclerosis," published in Diagnostics.
-- **Apr 2026:** Presented a traditional poster on Diffusion MRI at the SOBP conference, New York.
+<ul class="news-list">
+  <li><strong class="date-label">Sep 2026:</strong> Participated in Delta DIY MRI workshop II organized by Johns Hopkins Medicine. Won a travel award of $400 and best team member award (Signal Scout &mdash; Acquisition/Console team)</li>
+  <li><strong class="date-label">May 2026:</strong> Presented a digital poster on LASSO-informed texture analysis at the ISMRM Annual Meeting, Cape Town.</li>
+  <li><strong class="date-label">May 2026:</strong> Co-authored "COVID-19 and Radiological Progression of Multiple Sclerosis," published in Diagnostics.</li>
+</ul>
 
 For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.
 

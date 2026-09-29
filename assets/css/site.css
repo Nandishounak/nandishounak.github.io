@@ -243,14 +243,30 @@ a:hover { text-decoration: underline; color: var(--link-hover); }
 .edu-entry:last-child {
   margin-bottom: 0;
 }
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
 .edu-degree {
   font-weight: 600;
   color: var(--text);
+}
+.edu-date {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  white-space: nowrap;
 }
 .edu-org {
   color: var(--muted);
   font-size: 0.9rem;
   margin-top: 2px;
+}
+.date-label {
+  font-style: italic;
 }
 .site-footer {
   border-top: 1px solid var(--line-softer);
