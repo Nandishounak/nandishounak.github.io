@@ -34,4 +34,4 @@ Then open http://localhost:4000.
 
 ## Deployment
 
-Pushing to `main` triggers GitHub Pages' built-in Jekyll build — no CI configuration needed.
+Pushing to `main` triggers GitHub Pages' built-in Jekyll build, so no CI configuration is needed.

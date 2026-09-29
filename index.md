@@ -63,9 +63,9 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
 ## Selected Updates
 
 <ul class="news-list">
-  <li><strong class="date-label">Sep 2026:</strong> Participated in Delta DIY MRI workshop II organized by Johns Hopkins Medicine. Won a travel award of $400 and best team member award (Signal Scout &mdash; Acquisition/Console team)</li>
-  <li><strong class="date-label">May 2026:</strong> Presented a digital poster on LASSO-informed texture analysis at the ISMRM Annual Meeting, Cape Town.</li>
-  <li><strong class="date-label">May 2026:</strong> Co-authored "COVID-19 and Radiological Progression of Multiple Sclerosis," published in Diagnostics.</li>
+  <li><strong class="date-label">Sep 2026:</strong> Participated in <a href="https://delta-diy-mri.github.io/">Delta DIY MRI workshop II</a> organized by Johns Hopkins Medicine. Won a travel award of $400 and the best team member award on the Signal Scout (Acquisition/Console) team</li>
+  <li><strong class="date-label">May 2026:</strong> Presented a <a href="https://echo.ismrm.org/conferences/ISMRM2026/digital-poster/13587">digital poster</a> on LASSO-informed texture analysis at the ISMRM Annual Meeting, Cape Town.</li>
+  <li><strong class="date-label">May 2026:</strong> Co-authored "<a href="https://doi.org/10.3390/diagnostics16101513">COVID-19 and Radiological Progression of Multiple Sclerosis</a>," published in Diagnostics.</li>
 </ul>
 
 For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.

@@ -45,7 +45,7 @@ html {
 body {
   margin: 0;
   color: var(--text);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   line-height: 1.65;
   background-color: var(--bg-body);
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Brain_MRI.jpg/1280px-Brain_MRI.jpg');
@@ -175,14 +175,14 @@ nav a:hover {
   box-shadow: var(--shadow);
 }
 h1 {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   font-size: 2.15rem;
   line-height: 1.15;
   color: var(--text-strong);
 }
 h2 {
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   font-size: 1.35rem;
   border-bottom: 1px solid var(--line);
   padding-bottom: 6px;
@@ -190,7 +190,7 @@ h2 {
 }
 h3 {
   margin-top: 20px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   font-size: 1.05rem;
   color: var(--text);
 }

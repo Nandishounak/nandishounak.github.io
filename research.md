@@ -2,7 +2,7 @@
 layout: default
 title: Research
 permalink: /research/
-description: "Research interests, experience, publications, and technical skills of Shounak Nandi — diffusion MRI, low-field MRI, and reproducible neuroimaging pipelines."
+description: "Research interests, experience, publications, and technical skills of Shounak Nandi in diffusion MRI, low-field MRI, and reproducible neuroimaging pipelines."
 ---
 
 <h1>Research</h1>
@@ -98,10 +98,11 @@ description: "Research interests, experience, publications, and technical skills
 
 <h2>Technical Skills</h2>
 <div class="skills-grid">
-  <div><span class="skill-label">Programming</span> Python, C++, MATLAB, R, SQL, Bash, LaTeX</div>
-  <div><span class="skill-label">Neuroimaging</span> FSL, FreeSurfer, AFNI, ANTs, SPM, DIPY</div>
-  <div><span class="skill-label">Tools</span> Git, Conda, VS Code, PyCharm, HPC, Slurm</div>
-  <div><span class="skill-label">Systems</span> Linux, macOS, Windows</div>
+  <div><span class="skill-label">Methods</span> Diffusion modeling (DTI, DKI, NODDI-Bingham), tractography, fMRI (task &amp; resting-state), ASL, MR spectroscopy, structural morphometry, radiomics/texture analysis, machine &amp; deep learning</div>
+  <div><span class="skill-label">Neuroimaging</span> FSL, FreeSurfer, MRtrix, ANTs, AFNI, SPM, DIPY, Slicer, jMRUI</div>
+  <div><span class="skill-label">Programming</span> Python, C++, MATLAB, R, Shell, SQL, LaTeX</div>
+  <div><span class="skill-label">Libraries</span> PyTorch, NumPy, SciPy, Pandas, Matplotlib, Seaborn, Nibabel, Pydicom, Mahotas</div>
+  <div><span class="skill-label">Infrastructure</span> Linux, HPC/Slurm, Git, Docker</div>
 </div>
 
 <h2 id="awards">Awards</h2>
