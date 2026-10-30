@@ -21,7 +21,7 @@ description: "Research interests, experience, publications, and technical skills
 
 <div class="exp-entry">
   <div class="exp-header">
-    <span class="exp-role">Study Coordinator, Radiology</span>
+    <span class="exp-role">Research Technician, Radiology</span>
     <span class="exp-date">2024 &ndash; Present</span>
   </div>
   <div class="exp-org">Albert Einstein College of Medicine, New York</div>
