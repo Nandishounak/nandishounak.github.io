@@ -8,7 +8,7 @@ description: "Latest news and updates from Shounak Nandi: publications, conferen
 # News
 
 <ul class="news-list">
-  
+  <li><strong class="date-label">Oct 2026:</strong> Participated in the <a href="https://cai2r.net/training/i2i-workshop/#program">i2i workshop 2026</a> organized by NYU Langone in New York.</li>
   <li><strong class="date-label">Sep 2026:</strong> Participated in <a href="https://delta-diy-mri.github.io/">Delta DIY MRI workshop II</a> organized by Johns Hopkins Medicine. Won a travel award of $400 and the best team member award on the Signal Scout (Acquisition/Console) team</li>
   <li><strong class="date-label">May 2026:</strong> Presented a digital poster on "<a href="https://echo.ismrm.org/conferences/ISMRM2026/digital-poster/13587">LASSO-informed texture analysis</a>" at the ISMRM 2026 Annual Meeting in Cape Town, South Africa.</li>
   <li><strong class="date-label">May 2026:</strong> Co-authored "<a href="https://doi.org/10.3390/diagnostics16101513">COVID-19 and Radiological Progression of Multiple Sclerosis</a>," published in Diagnostics.</li>

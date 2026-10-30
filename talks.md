@@ -9,6 +9,7 @@ description: "Conference talks and poster presentations by Shounak Nandi in diff
 <p class="muted" style="margin-top:4px;margin-bottom:24px;">Conference presentations and posters.</p>
 
 <ul class="compact-list conf-list talk-list">
+  <li><span class="talk-tag tag-poster">Poster</span><strong>i2i workshop 2026</strong>, New York City &mdash; Advanced microstructure diffusion models in pediatric chemo brain</li>
   <li><span class="talk-tag tag-digital">Digital Poster</span><strong>ISMRM 2026</strong>, Cape Town &mdash; LASSO-informed texture analysis</li>
   <li><span class="talk-tag tag-poster">Poster</span><strong>SOBP 2026</strong>, New York City &mdash; Bingham-NODDI, pediatric cancer survivors</li>
   <li><span class="talk-tag tag-poster">Digital Poster</span><strong>ISMRM 2024</strong>, Singapore &mdash; Texture biomarkers in cocaine use disorder</li>

@@ -71,15 +71,6 @@ description: "Research interests, experience, publications, and technical skills
 <div class="pub">
   <span class="pub-num">1</span>
   <div class="pub-body">
-    Nguyen HQ, Hadidchi R, Eligulashvili A, <strong>Nandi S</strong>, et al.
-    <em>COVID-19 and Radiological Progression of Multiple Sclerosis.</em>
-    Diagnostics, 2026;16(10):1513.
-    <a href="https://doi.org/10.3390/diagnostics16101513">doi:10.3390/diagnostics16101513</a>
-  </div>
-</div>
-<div class="pub">
-  <span class="pub-num">2</span>
-  <div class="pub-body">
     <strong>Nandi S</strong>, Poojar P, Taufique S, et al.
     <em>Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.</em>
     NMR in Biomedicine, 2026.
@@ -87,12 +78,21 @@ description: "Research interests, experience, publications, and technical skills
   </div>
 </div>
 <div class="pub">
-  <span class="pub-num">3</span>
+  <span class="pub-num">2</span>
   <div class="pub-body">
     McKenna FF*, <strong>Nandi S</strong>*, et al.
     <em>Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.</em>
     British Journal of Haematology, 2025.
     <a href="https://doi.org/10.1111/bjh.70300">doi:10.1111/bjh.70300</a>
+  </div>
+</div>
+<div class="pub">
+  <span class="pub-num">3</span>
+  <div class="pub-body">
+    Henry SS, <strong>Nandi S</strong>, Holtzer R, Rabin M, Gennarini L, Tal A, et al.
+    <em>Temporal lobe cortical thickness and cognition in paediatric cancer survivors previously treated with chemotherapy.</em>
+    British Journal of Haematology, 2026; 00: 1&ndash;9.
+    <a href="https://doi.org/10.1111/bjh.70911">doi:10.1111/bjh.70911</a>
   </div>
 </div>
 
