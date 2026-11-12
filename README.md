@@ -13,7 +13,6 @@ index.md              Home / About page
 research.md           Research interests, experience, publications, skills, awards
 talks.md              Conference talks and posters
 news.md               Chronological updates
-stats.md              Quick numeric snapshot (kept in sync manually with research.md/talks.md)
 assets/css/           Site-wide and page-specific styles
 assets/img/           Profile photo, favicon
 assets/CV.pdf         Downloadable CV

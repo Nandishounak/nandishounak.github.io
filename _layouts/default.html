@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
-  {% if page.permalink == '/research/' or page.permalink == '/talks/' or page.permalink == '/stats/' %}
+  {% if page.permalink == '/research/' or page.permalink == '/talks/' %}
   <link rel="stylesheet" href="{{ '/assets/css/research-compact.css' | relative_url }}">
   {% endif %}
 </head>
@@ -36,7 +36,6 @@
           <a href="{{ '/research' | relative_url }}">Research</a>
           <a href="{{ '/talks' | relative_url }}">Conference</a>
           <a href="{{ '/news' | relative_url }}">News</a>
-          <a href="{{ '/stats' | relative_url }}">Stats</a>
           <a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a>
         </nav>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light mode">&#127769;</button>
@@ -48,24 +47,7 @@
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <p>
-        <svg class="bot-icon" viewBox="0 0 11 7" aria-hidden="true" shape-rendering="crispEdges">
-          <g fill="#d97757">
-            <rect x="2" y="0" width="7" height="5"/>
-            <rect x="0" y="2" width="2" height="2"/>
-            <rect x="9" y="2" width="2" height="2"/>
-            <rect x="2" y="5" width="1" height="2"/>
-            <rect x="4" y="5" width="1" height="2"/>
-            <rect x="6" y="5" width="1" height="2"/>
-            <rect x="8" y="5" width="1" height="2"/>
-          </g>
-          <g fill="#1a1a1a">
-            <rect x="3" y="1" width="1" height="2"/>
-            <rect x="7" y="1" width="1" height="2"/>
-          </g>
-        </svg>
-        Vibe coded with Claude Code
-      </p>
+      <p>&copy; {{ site.time | date: "%Y" }} Shounak Nandi &middot; <a href="mailto:nandishounak2011@gmail.com">Email</a> &middot; <a href="https://scholar.google.com/citations?user=nqoO0iwAAAAJ&hl=en">Google Scholar</a> &middot; <a href="https://orcid.org/0000-0003-3588-3838">ORCID</a></p>
     </div>
   </footer>
   <script>

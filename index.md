@@ -13,18 +13,20 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
     <h1>Shounak Nandi</h1>
 
     <p class="muted">
-      Neuroimaging Researcher<br>
-      New York City, USA
+      Neuroimaging researcher, Gruss Magnetic Resonance Research Center<br>
+      Albert Einstein College of Medicine, New York City
     </p>
 
     <p>
-      I am a neuroimaging researcher working on multi-modal MRI analysis, diffusion microstructure modeling,
-      low-field and accessible MRI, and scalable neuroimaging pipelines on HPC systems.
+      I build diffusion MRI microstructure models and HPC pipelines that turn brain scans into
+      clinical imaging biomarkers, currently in pediatric cancer survivors treated with chemotherapy.
+      I also work on accessible low-field MRI, from pulse sequences on open-source scanners to
+      texture-based biomarkers.
     </p>
 
     <p>
-      My work spans diffusion MRI, fMRI, ASL, and structural MRI, with an emphasis on reproducibility,
-      computational efficiency, and clinically meaningful imaging biomarkers.
+      My first-author paper in <em>NMR in Biomedicine</em> showed that MRI texture changes in the
+      amygdala detect cocaine use disorder more sensitively than volume changes.
     </p>
 
     <p style="display:flex; gap:14px; flex-wrap:wrap;">
@@ -37,6 +39,40 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
     </p>
   </div>
 </div>
+
+## Selected Publications
+
+<p class="pub-legend">* Equal contribution</p>
+
+<div class="pub">
+  <span class="pub-num">1</span>
+  <div class="pub-body">
+    <strong>Nandi S</strong>, Poojar P, Taufique S, et al.
+    <em>Magnetic Resonance Imaging textural changes are more sensitive than volumetric changes in the amygdala of cocaine use disorder patients.</em>
+    NMR in Biomedicine, 2026.
+    <a href="https://doi.org/10.1002/nbm.70193">doi:10.1002/nbm.70193</a>
+  </div>
+</div>
+<div class="pub">
+  <span class="pub-num">2</span>
+  <div class="pub-body">
+    McKenna FF*, <strong>Nandi S</strong>*, et al.
+    <em>Microvascular and microstructural brain abnormalities in pediatric hematologic cancer survivors.</em>
+    British Journal of Haematology, 2025.
+    <a href="https://doi.org/10.1111/bjh.70300">doi:10.1111/bjh.70300</a>
+  </div>
+</div>
+<div class="pub">
+  <span class="pub-num">3</span>
+  <div class="pub-body">
+    Henry SS, <strong>Nandi S</strong>, Holtzer R, Rabin M, Gennarini L, Tal A, et al.
+    <em>Temporal lobe cortical thickness and cognition in paediatric cancer survivors previously treated with chemotherapy.</em>
+    British Journal of Haematology, 2026; 00: 1&ndash;9.
+    <a href="https://doi.org/10.1111/bjh.70911">doi:10.1111/bjh.70911</a>
+  </div>
+</div>
+
+Full list on [Google Scholar](https://scholar.google.com/citations?user=nqoO0iwAAAAJ&hl=en).
 
 ## Research Interests
 
@@ -68,7 +104,3 @@ description: "Shounak Nandi is a neuroimaging researcher working on diffusion MR
 </ul>
 
 For more, see the [News]({{ '/news' | relative_url }}) and [Research]({{ '/research' | relative_url }}) pages.
-
-## More About Me
-
-Beyond research, I like to spend time in [music](https://www.youtube.com/@ShounakNandi), racquet sports, gym, and little bit to [photography](https://www.instagram.com/image_dot_jpeg/).
